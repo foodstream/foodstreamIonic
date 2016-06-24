@@ -15,14 +15,14 @@ body {
     color: white;
     display: block;
     padding: 2% 0;
-    font-size: 4em;
+    font-size: 2em;
     position: fixed;
     top: 0;
     z-index: 1000; }
     body .app-header img {
       padding-left: 2%;
       display: inline-block;
-      width: 100px;
+      width: 40px;
       padding-left: 2%; }
     body .app-header .app-header-txt {
       display: inline-block;
@@ -35,8 +35,8 @@ body {
       margin: -1% 2% 0 0;
       cursor: pointer; }
       body .app-header .app-header-login-icon img {
-        width: 100px;
-        height: 100px;
+        width: 40px;
+        height: 40px;
         border-radius: 3em; }
   body .edit-profile-subheader {
     background-color: #abffda;
@@ -658,30 +658,30 @@ body {
     background-size: cover;
     background-repeat: no-repeat; }
   body .landing-login-email-input {
-    width: 80%;
+    width: 90%;
     border: solid 5px white;
     box-sizing: border-box;
-    font-size: 4em;
+    font-size: 1em;
     line-height: 1em;
-    margin: 5% 10%;
+    margin: 5% 5%;
     padding: 3%;
     background: transparent;
     color: white; }
   body .landing-login-password-input {
-    width: 80%;
+    width: 90%;
     border: solid 5px white;
     box-sizing: border-box;
-    font-size: 4em;
+    font-size: 1em;
     line-height: 1em;
-    margin: 5% 10% 8% 10%;
+    margin: 5% 5% 8% 5%;
     padding: 3%;
     background: transparent;
     color: white; }
   body .landing-login-btn {
-    width: 80%;
-    font-size: 3em;
+    width: 90%;
+    font-size: 2em;
     text-align: center;
-    margin: 2% 10%;
+    margin: 2% 5%;
     padding: 2%;
     background-color: rgba(113, 247, 159, 0.85);
     color: white;
@@ -690,10 +690,10 @@ body {
     body .landing-login-btn:hover {
       background-color: rgba(89, 246, 143, 0.75); }
   body .landing-signup-btn {
-    width: 80%;
-    font-size: 3em;
+    width: 90%;
+    font-size: 2em;
     text-align: center;
-    margin: 10% 10% 15% 10%;
+    margin: 10% 5% 15% 5%;
     padding: 2%;
     background-color: rgba(61, 214, 208, 0.85);
     color: white;
@@ -702,15 +702,15 @@ body {
     body .landing-signup-btn:hover {
       background-color: #2ccec8; }
   body .login-about {
-    margin: 50px 2.5%;
+    margin: 0 1%;
     background-color: transparent;
     width: 90%;
-    padding: 2% 2%;
+    padding: 0 1%;
     color: white;
     font-family: "Overpass", sans-serif;
     text-align: center;
-    font-size: 4.2em;
-    line-height: 1.5em; }
+    font-size: 2em;
+    line-height: 1.2em; }
   body .login-legal {
     margin: 50px 2.5%;
     width: 90%;
