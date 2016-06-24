@@ -21,8 +21,9 @@ body {
     z-index: 1000; }
     body .app-header img {
       padding-left: 2%;
+      padding-top: 1.5%;
       display: inline-block;
-      width: 40px;
+      width: 35px;
       padding-left: 2%; }
     body .app-header .app-header-txt {
       display: inline-block;
@@ -32,11 +33,11 @@ body {
       position: absolute; }
     body .app-header .app-header-login-icon {
       float: right;
-      margin: -1% 2% 0 0;
+      margin: 2.2% 1% 0 0;
       cursor: pointer; }
       body .app-header .app-header-login-icon img {
-        width: 40px;
-        height: 40px;
+        width: 32px;
+        height: 32px;
         border-radius: 3em; }
   body .edit-profile-subheader {
     background-color: #abffda;
