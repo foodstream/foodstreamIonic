@@ -1,0 +1,157 @@
+.chat-subheader{
+  background-color: lighten($headerbg, 25%);
+  font-size: 4em;
+  line-height: 1.5em;
+  position: fixed;
+  top: 7%;
+  width: 100%;
+  display: block;
+  text-align: center;
+  z-index: 999;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  @media screen and (min-width: $break-large) {
+    position: fixed;
+    padding: 2% 0 0 0;
+    font-size: 1.5em;
+    font-weight: 600;
+    width: 100vw;
+    display: block;
+    top: 50px;
+  }
+  .chat-other-user-text{
+    font-weight: 700;
+  }
+}
+.chat-content-wrapper{
+  margin: 25% 0 0 0;
+  // width: 100%;
+  height: 73vh;
+  // border: solid thin black;
+  overflow: scroll;
+  @media screen and (min-width: $break-large) {
+    margin: 8% 0 0 0;
+    height: 70vh;
+    width: 100vw;
+  }
+  .chat-other-user-response{
+    width: 65%;
+    display: block;
+    font-size: 3em;
+    line-height: 1.2em;
+    background-color: white;
+    border-radius: 0 .3em .3em .3em;
+    margin: 2%;
+    padding: 2% 1%;
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    @media screen and (min-width: $break-large) {
+      font-size: 1.2em;
+      padding: 1%
+    }
+  }
+  .chat-current-user-response{
+    // border: solid thin black;
+    margin: 2% 0 2% 30%;
+    width: 65%;
+    display: block;
+    font-size: 3em;
+    line-height: 1.2em;
+    background-color: white;
+    padding: 2% 1%;
+    border-radius: .3em .3em 0 .3em;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    @media screen and (min-width: $break-large) {
+      font-size: 1.2em;
+      padding: 1%
+    }
+  }
+}
+.chat-input-block{
+  margin: 1% 0 1% 0;
+  position: absolute;
+  bottom: 7%;
+  width: 100%;
+  border-top: darken($border, 30%);
+  display: block;
+  @media screen and (min-width: $break-large) {
+  position: fixed;
+  bottom: 7%;
+  }
+  .chat-input{
+    width: 80%;
+    font-size: 3em;
+    line-height: 1.7em;
+    margin: 0 0 0 2%;
+    border: solid 2px $buttonbg;
+    border-right: solid 2px transparent;
+    border-radius: 5px;
+    @media screen and (min-width: $break-large) {
+      font-size: 1.8em;
+      line-height: 1.5em;
+      margin: 0 0 0 8%;
+    }
+    }
+    .fa-paper-plane-o{
+      display: inline-block;
+      font-size: 3.5em;
+      // margin: 0 0 0 -1%;
+      padding: 2%;
+      color: white;
+      background-color: $buttonbg;
+      border-radius: 5px;
+      @media screen and (min-width: $break-large) {
+        font-size: 1.5em;
+        padding: 1%;
+        cursor: pointer;
+      }
+      &:hover{
+        color: $buttonbg;
+        background-color: white;
+        border: solid 2px $buttonbg;
+      }
+  }
+}
+
+.chat-home-btn{
+  display:block;
+  background-color: $buttonaccent2;
+  font-size: 4em;
+  line-height: 1.5em;
+  text-align: center;
+  color: white;
+  width: 50%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+  font-weight: 300;
+  @media screen and (min-width: $break-large) {
+  font-size: 2em;
+  line-height: 1.75em;
+}
+  &:hover{
+    background-color: darken($buttonaccent2, 5%);
+  }
+}
+.chat-back-to-post-btn{
+  display:inline-block;
+  background-color: $buttonbg;
+  font-size: 4em;
+  line-height: 1.5em;
+  text-align: center;
+  color: white;
+  width:50%;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  cursor: pointer;
+  font-weight: 300;
+  @media screen and (min-width: $break-large) {
+    font-size: 2em;
+    line-height: 1.75em;
+  }
+  &:hover{
+    background-color: darken($buttonbg, 5%);
+  }
+}

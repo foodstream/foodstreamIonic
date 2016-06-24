@@ -1,0 +1,40 @@
+
+	<div class = "create-subheader">
+		Create post
+	</div>
+
+<!-- <div class = "create-content-wrapper"> -->
+
+<div class='create-content-wrapper'>
+<div class='create-post-add-pic' ng-click='addPic()'>
+	<i class="fa fa-camera-retro" aria-hidden="true"></i>
+	Add a Picture
+</div>
+
+	<div class = "create-upload-verify" ng-show = "fileVerify()">
+		<i class="fa fa-check-square-o" aria-hidden="true"></i>
+		<div>Image selected</div>
+	</div>
+
+	<input class = "create-title" id='title' placeholder="Title" ng-model='title'></input>
+
+
+	<input id="create-post-location" class="create-location" placeholder="Location" ng-model='location' ></input>
+
+	<div class="create-time">
+        <input class="create-start-na" type="text" val="" placeholder="Start Date" ng-model='startTime'></input>
+					<input class="create-start-time-na" type="text" val="" placeholder="Time"></input>
+
+        <input class="create-end-na" type="text" val="" placeholder="End Date" ng-model='endTime'></input>
+        <input class="create-end-time-na" type="text" val="" placeholder="Time"></input>
+    </div>
+
+	<textarea class = "create-description" placeholder="Description" ng-model='description'></textarea>
+
+<!-- <input class = "create-submit-button" type="submit" value="Submit post" id = "newPostSubmitButton" ng-click = "submitNewPost(file)"> -->
+
+	<input id="file-input" name='file' type="file" ngf-select ng-model="file" ngf-pattern="'image/*'" ngf-capture="'other'" accept="image/*" ngf-max-size="20MB" ngf-min-height="100">
+
+
+</div>
+<div class='create-submit-button' ng-click = "submitNewPost(file)">Submit Post</div>

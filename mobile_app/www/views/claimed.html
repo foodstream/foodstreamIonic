@@ -1,0 +1,78 @@
+<div class = "claimed-title">
+  {{post.title}}
+</div>
+
+<div class = "claimed-content-wrapper">
+
+  <div class = "claimed-supplier-name-wrap">
+    <span class='claimed-supplier-name'>
+      <span>Supplier:</span>
+      {{post.supplier.first_name}} {{post.supplier.last_name}}
+    </span>
+    <span class='claimed-supplier-org'>
+      <span>Organization:</span>
+      {{post.supplier.organization}}
+    </span>
+  </div>
+
+  <div class = "claimed-details">
+    <span>Description:</span>
+    {{post.details}}
+  </div>
+
+  <div class='claimed-images'>
+    <img class='claimed-post-photo' ng-src = "{{post.post_image}}"></img>
+    <div id='claimed-map'></div>
+  </div>
+
+  <div class='claimed-buttons-wrap'>
+
+    <div class = "claimed-calendar" ng-click='addToCalendar()'>
+      <i class="fa fa-calendar-plus-o"></i>
+      Add to Calendar
+    </div>
+
+    <div class = "claimed-chat" ng-click='goToChat(post.id, post.supplier.id, post.claimant_id)'>
+      <i class="fa fa-comment"></i>
+      Chat
+    </div>
+
+    <a href={{directionsLink}} class='claimed-directions'>
+      <i class="fa fa-google" aria-hidden="true"></i>
+      Get directions
+    </a>
+
+  </div>
+
+  <div class = "claimed-location">
+    <span>Address:</span>
+    {{post.address_string}}
+  </div>
+
+  <div class = "claimed-time-wrap">
+    <div class = "claimed-start">
+      <span>Starts At: </span>
+      {{post.start_at}}
+    </div>
+    <div class = "claimed-end"><span>Pick Up by:</span>{{post.end_at}}</div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+  <div class = "claimed-bottom-button" ng-click='goHome()'>Back</div>
+  <div class = "claimed-remove-button" ng-click='removePost(post.claimant.id, post.supplier.id)'>Unclaim</div>

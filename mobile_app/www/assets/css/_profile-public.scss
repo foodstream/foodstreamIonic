@@ -1,0 +1,77 @@
+.profile-public-info {
+    @media screen and (min-width: $break-large) {
+        top: 10%;
+        padding-left: 12%;
+    }
+  .profile-pub-picture {
+      @media screen and (min-width: $break-large) {
+          width: 35%;
+          height: 250px;
+          padding: 0 20%;
+          margin: 2% 0 0 0;
+          text-align: center;
+      }
+  }
+  .profile-pub-name {
+      @media screen and (min-width: $break-large) {
+          width: 35%;
+          padding: 0 20%;
+          margin: 2% 0 0 0;
+          text-align: center;
+      }
+    .profile-pub-firstname {
+        @media screen and (min-width: $break-large) {
+            font-size: 2em;
+        }
+    }
+    .profile-pub-lastname {
+        @media screen and (min-width: $break-large) {
+            font-size: 2em;
+        }
+    }
+  }
+  .profile-pub-data {
+      @media screen and (min-width: $break-large) {
+          width: 35%;
+          padding: 0 20%;
+          margin: 2% 0 0 0;
+          text-align: center;
+      }
+    .profile-pub-org {
+        @media screen and (min-width: $break-large) {
+            font-size: 1.5em;
+        }
+    }
+    .profile-pub-location {
+        @media screen and (min-width: $break-large) {
+            font-size: 1.5em;
+        }
+    }
+    .actual-stars {
+    }
+  }
+  .profile-pub-about {
+      @media screen and (min-width: $break-large) {
+          width: 57%;
+          padding: 1% 5%;
+          margin: 2% 0 8% 5%;
+          font-size: 1.25em;
+      }
+  }
+}
+.profile-pub-footer {
+.profile-pub-home {
+  @media screen and (min-width: $break-large) {
+      font-size: 2em;
+      font-weight: 600;
+      line-height: 1.75em;
+  }
+}
+.profile-pub-back {
+  @media screen and (min-width: $break-large) {
+      font-size: 2em;
+      font-weight: 600;
+      line-height: 1.75em;
+  }
+}
+}

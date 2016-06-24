@@ -1,0 +1,60 @@
+<div class = "post-detail-title">
+  {{post.title}}
+</div>
+
+<div class = "post-detail-content-wrapper">
+
+  <div class = "post-detail-supplier-wrap">
+    <div class='post-detail-supplier-name'>
+      <span>Supplier Name:</span>
+      {{post.supplier.first_name}} {{post.supplier.last_name}}
+    </div>
+    <div class='post-detail-org'>
+      <!-- <span>Organization:</span>
+      {{post.supplier.organization}} -->
+      <span>Supplier Rating:</span>
+      <div class = "actual-stars" star-rating rating="userRating" read-only="true" max-rating="5"></div>
+
+    </div>
+
+  </div>
+
+  <div class = "post-detail-details">
+    <span>Post Details:</span>
+    {{post.details}}
+  </div>
+
+
+  <div class = "post-detail-images">
+    <img class='post-detail-img' ng-src ="{{post.post_image}}"></img>
+    <div id='post-detail-map'></div>
+  </div>
+
+    <a href={{directionsLink}} class='post-detail-directions-link'>
+      Get directions
+    </a>
+
+    <div class = "post-detail-location">
+      <span>Pick Up Address:</span>
+      {{post.address_string}}
+    </div>
+
+  <div class='post-detail-time-wrap'>
+    <div class = "post-detail-start">
+      <span>Available at:</span>
+      {{post.start_at}}
+    </div>
+    <div class = "post-detail-end">
+      <span>Pick Up by:</span>
+      {{post.end_at}}
+    </div>
+  </div>
+
+  <div class = "post-detail-rating">
+
+  </div>
+
+</div>
+
+<div class = "post-detail-bottom-button" ng-click='goHome()'>Back</div>
+<div class = "post-detail-claim-button" ng-click='claimPost()'>Claim Post</div>

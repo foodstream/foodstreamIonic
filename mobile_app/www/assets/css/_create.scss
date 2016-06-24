@@ -1,0 +1,217 @@
+.create-subheader {
+  width: 100%;
+  font-size: 4em;
+  text-align: center;
+  background-color: lighten($headerbg, 35%);
+  line-height: 1.5em;
+  margin-top: 11%;
+  z-index: 999;
+  position: fixed;
+  @media screen and (min-width: $break-large) {
+        position: fixed;
+        top: 65px;
+        line-height: 1.2em;
+        margin-top: 0;
+        color: darken($headerbg, 10%);
+        padding: .5% 0;
+        font-size: 1.75em;
+  }
+}
+
+
+
+.create-content-wrapper{
+  width: 100%;
+  top: 13%;
+  height: 81vh;
+  position: absolute;
+  border: solid thin black;
+.create-post-add-pic{
+  border: solid 3px $border;
+  text-align: center;
+  width: 95%;
+  margin: 4%  0 2%  2.5%;
+  font-size: 4em;
+  color: lighten(black, 35%);
+  background-color: lighten($border,3%);
+  line-height: 1.2em;
+  @media screen and (min-width: $break-large) {
+      margin: 1% 2% 1% 38%;
+      width: 25%;
+      font-size: 2.5em;
+      text-align: center;
+  }
+  .fa-camera-retro{
+    display:block;
+    color: lighten(black, 55%);
+    margin: 2% 0;
+    font-size: 2em;
+  }
+}
+.create-upload-verify {
+  .fa-check-square-o{
+    color: $buttonaccent2;
+    font-size: 5em;
+    margin-left: 30%;
+    display: inline;
+    @media screen and (min-width: $break-large) {
+      font-size: 2em;
+      margin: 0 0 0 43%;
+
+    }
+  }
+  div {
+    display: inline;
+    font-size: 3em;
+    @media screen and (min-width: $break-large) {
+      font-size: 1.5em;
+    }
+  }
+}
+
+#file-input{
+  display: none;
+}
+
+.create-title {
+  background-color: white;
+  width: 95%;
+  border: solid 2px $border;
+  font-size: 4em;
+  margin: 2% 0 0 2.5%;
+  color: black;
+  @media screen and (min-width: $break-large) {
+    width: 35.5%;
+    font-size: 1.5em;
+    margin: 1.5% 0 0 32%;
+  }
+}
+
+.create-location {
+  background-color: white;
+  width: 95%;
+  border: solid 2px $border;
+  font-size: 4em;
+  margin: 2% 0 2% 2.5%;
+  color: black;
+  @media screen and (min-width: $break-large) {
+      width: 35.5%;
+      font-size: 1.5em;
+      margin: 1% 0 0 32%;
+  }
+}
+.create-start-na {
+  display: inline-block;
+  background-color: white;
+  width: 40%;
+  border: solid 2px $border;
+  font-size: 4em;
+  margin: 2% 2% 2% 2%;
+  color: black;
+  @media screen and (min-width: $break-large) {
+    width: 10%;
+    font-size: 1.5em;
+    margin: 1% 0 0 37%;
+  }
+}
+.create-start-time-na{
+  display: inline-block;
+  background-color: white;
+  width: 40%;
+  border: solid 2px $border;
+  font-size: 4em;
+  margin-top: 2%;
+  color: black;
+  @media screen and (min-width: $break-large) {
+    width: 10%;
+    font-size: 1.5em;
+    margin: 1% 35% 0 5%;
+  }
+}
+.create-end-na {
+  display: inline-block;
+  margin: 2% 2% 2% 2%;
+  background-color: white;
+  width: 40%;
+  border: solid 2px $border;
+  font-size: 4em;
+  color: black;
+  @media screen and (min-width: $break-large) {
+      width: 10%;
+      font-size: 1.5em;
+      margin: 1% 0 0 37%;
+  }
+}
+.create-end-time-na{
+  display: inline-block;
+  background-color: white;
+  width: 40%;
+  border: solid 2px $border;
+  font-size: 4em;
+  margin-top: 2%;
+  color: black;
+  @media screen and (min-width: $break-large) {
+      width: 10%;
+      font-size: 1.5em;
+      margin: 1% 35% 0 5%;
+  }
+}
+
+.create-description {
+  display: block;
+  height: 40vh;
+  background-color: white;
+  width: 95%;
+  border: solid 2px $border;
+  font-size: 4em;
+  margin: 2% 0 0 2.5%;
+  color: black;
+  z-index: 1;
+  @media screen and (min-width: $break-large) {
+      width: 35.5%;
+      font-size: 1.5em;
+      margin: 1% 0 0 32%;
+      height: 15vh;
+  }
+}
+}
+
+.create-submit-button {
+background-color: $buttonaccent2;
+position: fixed;
+bottom: 0;
+width: 100%;
+text-align: center;
+font-size: 4em;
+line-height: 1.5em;
+color: white;
+cursor: pointer;
+font-weight: 200;
+z-index: 999;
+&:hover{
+ background-color: darken($buttonaccent2, 5%);
+}
+}
+
+.create-submit-button {
+  background-color: $buttonaccent2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+  line-height: 1.5em;
+  color: white;
+  cursor: pointer;
+  font-weight: 200;
+  z-index: 999;
+  &:hover{
+   background-color: darken($buttonaccent2, 5%);
+  }
+  @media screen and (min-width: $break-large) {
+      position: fixed;
+      font-size: 2em;
+      font-weight: 600;
+      line-height: 1.75em;
+  }
+}

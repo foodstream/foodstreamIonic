@@ -1,0 +1,50 @@
+<div class="edit-profile-subheader">
+
+  Your Profile
+</div>
+<div class='edit-profile-top-btn-wrap'>
+  <span class='edit-profile-change-email'>
+    Change  Email
+  </span>
+  <span class='edit-profile-change-password'>
+    Change Password
+  </span>
+  <span class='edit-profile-logout-btn' ng-click='logout()'>
+    Log Out
+
+  </span>
+</div>
+
+<div class = "edit-profile-content-wrapper">
+
+  <img class='edit-profile-image' ng-src = "{{profilePic}}" width = "500px"></img>
+
+  <div class = "edit-profile-rating">
+    Average rating:
+    <div class = "actual-stars" star-rating rating="myRating" read-only="true" max-rating="5"></div>
+  </div>
+
+  <div class='edit-profile-add-image' ng-click='addImage()'>Add An Image</div>
+
+  <div class = "edit-profile-upload-verify" ng-show = "fileVerify()">
+		<i class="fa fa-check-square-o" aria-hidden="true"></i>
+		<div>Image selected</div>
+	</div>
+
+
+  <input class='edit-profile-first-name' type=text placeholder='First Name' ng-model = "first">
+
+  <input class='edit-profile-last-name' type=text placeholder='Last Name' ng-model = "last">
+
+  <input class='edit-profile-organization' type=text placeholder='Organization' ng-model = "org">
+
+  <input class='edit-profile-location' id='edit-profile-location-input' type=text placeholder='Location' ng-model = "userLocation">
+
+  <textarea class='edit-profile-description' type=text placeholder='Describe Yourself' ng-model = "userDescription"></textarea>
+
+
+
+  <input id="file-input-edit-profile" name='file' type="file" ngf-select ng-model="file" ngf-pattern="'image/*'" ngf-capture="'other'" accept="image/*" ngf-max-size="20MB" ngf-min-height="100">
+
+</div>
+<div class='edit-profile-footer' ng-click='submitEdit(file)'>Submit Profile</div>

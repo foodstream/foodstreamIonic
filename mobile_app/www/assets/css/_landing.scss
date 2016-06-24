@@ -1,0 +1,137 @@
+.landing-overlay-content {
+  // margin-top: 15%;
+  // padding-top: 15%;
+  margin-top: -2%;
+  padding: 25% 0 30% 0;
+  z-index: 999;
+  background: url('/assets/images/landing_background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media screen and (min-width: $break-large) {
+      margin-top: 0;
+      padding-top: 4%;
+  }
+}
+
+
+.landing-login-email-input{
+  width: 80%;
+  border: solid 5px white;
+  box-sizing: border-box;
+  font-size: 4em;
+  line-height: 1em;
+  margin: 5% 10%;
+  padding: 3%;
+  background: transparent;
+  color: white;
+  @media screen and (min-width: $break-large) {
+      font-size: 1.5em;
+      width: 35%;
+      margin: 0 10% 0 31.25%;
+      padding: 1%;
+      border: solid 3px white;
+  }
+}
+
+.landing-login-password-input{
+  width: 80%;
+  border: solid 5px white;
+  box-sizing: border-box;
+  font-size: 4em;
+  line-height: 1em;
+  margin: 5% 10% 8% 10%;
+  padding: 3%;
+  background: transparent;
+  color: white;
+  @media screen and (min-width: $break-large) {
+      font-size: 1.5em;
+      width: 35%;
+      margin: 1% 10% 0 31.25%;
+      padding: 1%;
+      border: solid 3px white;
+  }
+}
+
+.landing-login-btn{
+  width: 80%;
+  font-size: 3em;
+  text-align: center;
+  margin: 2% 10%;
+  padding: 2%;
+  background-color: rgba(113, 247, 159, 0.85);
+  color: white;
+  cursor: pointer;
+  box-sizing: border-box;
+  &:hover{
+    background-color: darken(rgba(113, 247, 159, 0.75), 5%);
+  }
+  @media screen and (min-width: $break-large) {
+      display: block;
+      margin: 2% 0 0 31.25%;
+      width: 33.5%;
+      text-align: center;
+      border-radius: 10px;
+      font-size: 2em;
+      line-height: .75em;
+  }
+}
+
+.landing-signup-btn{
+  width: 80%;
+  font-size: 3em;
+  text-align: center;
+  margin: 10% 10% 15% 10%;
+  padding: 2%;
+  background-color: rgba(61, 214, 208, 0.85);
+  color: white;
+  cursor: pointer;
+  box-sizing: border-box;
+  &:hover{
+    background-color: darken($buttonbg, 5%);
+  }
+  @media screen and (min-width: $break-large) {
+      display: block;
+      margin: 1% 0 0 31.25%;
+      width: 33.5%;
+      text-align: center;
+      border-radius: 10px;
+      font-size: 2em;
+      line-height: .75em;
+  }
+}
+
+.login-about {
+  margin: 50px 2.5%;
+  background-color: transparent;
+  width: 90%;
+  padding: 2% 2%;
+  // border: solid 2px darken($border, 10%);
+  color: white;
+  font-family: "Overpass", sans-serif;
+  text-align: center;
+  font-size: 4.2em;
+  line-height: 1.5em;
+  @media screen and (min-width: $break-large) {
+      margin-left: 9%;
+      font-size: 3em;
+      width: 80%;
+      line-height: 1em;
+  }
+}
+  .login-legal {
+    margin: 50px 2.5%;
+    width: 90%;
+    padding: 2% 2%;
+    color: white;
+    font-family: 'overpass', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    @media screen and (min-width: $break-large) {
+        margin: 0;
+        width: 100%;
+        padding: 2% 0;
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+    }
+  }

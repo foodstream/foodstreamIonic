@@ -1,0 +1,36 @@
+<div class = "edit-post-subheader">
+  Edit Post
+</div>
+
+<div class = "edit-post-content-wrapper">
+
+  <img class='edit-post-image' ng-src = "{{postPic}}" ></img>
+
+	<input id="file-input-edit-post" name='file' type="file" ngf-select ng-model="file" ngf-pattern="'image/*'" ngf-capture="'other'" accept="image/*" ngf-max-size="20MB" ngf-min-height="100">
+
+  <div class='edit-post-add-image' ng-click='addImage()'>Replace Image</div>
+
+
+<input class = "edit-post-title" placeholder="Title" ng-model='title'></input>
+
+<input id="edit-post-location-ga" class="edit-post-location" placeholder="Location" ng-model='location' ></input>
+
+<div class="edit-post-time">
+      <input class="edit-post-start-na" type="text"  placeholder="Start Date" ng-model='startDate'></input>
+      <input class="edit-post-start-time-na" type="text"  placeholder="Time" ng-model='startTime'></input>
+
+      <input class="edit-post-end-na" type="text" placeholder="End Date" ng-model='endDate'></input>
+      <input class="edit-post-end-time-na" type="text"  placeholder="Time" ng-model='endTime'></input>
+  </div>
+
+<textarea class = "edit-post-description" placeholder="Description" ng-model='description'></textarea>
+<!--
+<input type="submit" value="Submit post" id = "newPostSubmitButton" ng-click = "editPost(file)"> -->
+
+
+
+</form>
+
+</div>
+
+<div class='edit-post-btn' ng-click='editPost(file)'>Edit Post</div>

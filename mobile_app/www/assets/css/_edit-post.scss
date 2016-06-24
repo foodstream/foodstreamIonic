@@ -1,0 +1,195 @@
+.edit-post-subheader {
+  width: 100%;
+  font-size: 4em;
+  text-align: center;
+  background-color:lighten($headerbg, 35%);
+  line-height: 1.5em;
+  margin-top: 12%;
+  position: fixed;
+  color: black;
+  z-index: 999;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  @media screen and (min-width: $break-large) {
+        position: fixed;
+        top: 65px;
+        line-height: 1em;
+        margin-top: 0;
+    
+        padding: .5% 0;
+        font-size: 1.75em;
+  }
+}
+.edit-post-content-wrapper{
+  margin-top: 22%;
+  overflow: scroll;
+  height: 81vh;
+  // border: solid thin black;
+  position: absolute;
+  @media screen and (min-width: $break-large) {
+      margin: 7% 0 0 30%;
+  }
+  .edit-post-image{
+    height: 450px;
+    width: 450px;
+    margin: 2% 0 0 28%;
+    @media screen and (min-width: $break-large) {
+        margin: 2% 0 0 18%;
+        height: 200px;
+        width: 200px;
+    }
+  }
+}
+#file-input-edit-post{
+  display: none;
+}
+.edit-post-add-image{
+  border: solid 3px $border;
+  text-align: center;
+  width: 95%;
+  margin: 1%  0 2%  2.5%;
+  font-size: 4em;
+  color: lighten(black, 35%);
+  background-color: lighten($border,3%);
+  line-height: 1.2em;
+  @media screen and (min-width: $break-large) {
+    width: 50%;
+    font-size: 2em;
+    margin: 1% 0 1% 2.5%;
+  }
+}
+.edit-post-title {
+  background-color: white;
+  width: 95%;
+  border: solid 2px $border;
+  font-size: 4em;
+  margin: 2% 0 0 2.5%;
+  color: black;
+  @media screen and (min-width: $break-large) {
+    width: 50%;
+    font-size: 1.5em;
+    margin: 1% 0 0 2.5%;
+  }
+}
+
+.edit-post-location {
+  background-color: white;
+  width: 95%;
+  border: solid 2px $border;
+  font-size: 1em;
+  margin: 2% 0 2% 2.5%;
+  color: black;
+  font-size: 4em;
+  @media screen and (min-width: $break-large) {
+    width: 50%;
+    font-size: 1.5em;
+    margin: 1% 0 1% 2.5%;
+  }
+}
+.edit-post-start-na {
+  display: inline-block;
+  background-color: white;
+  width: 40%;
+  border: solid 2px $border;
+  font-size: 4em;
+  margin: 1%;
+  color: black;
+  @media screen and (min-width: $break-large) {
+      width: 20%;
+      margin-right: 9%;
+      margin-left: 2%;
+      font-size: 1.5em;
+      text-align: center;
+  }
+}
+.edit-post-start-time-na{
+  display: inline-block;
+  background-color: white;
+  width: 40%;
+  border: solid 2px $border;
+  font-size: 4em;
+  margin-top: 2%;
+  color: black;
+  @media screen and (min-width: $break-large) {
+      width: 20%;
+      margin-right: 25%;
+      font-size: 1.5em;
+      text-align: center;
+  }
+}
+.edit-post-end-na {
+  display: inline-block;
+  margin: 1%;
+  background-color: white;
+  width: 40%;
+  border: solid 2px $border;
+  font-size: 4em;
+  margin-top: 2%;
+  color: black;
+  @media screen and (min-width: $break-large) {
+      width: 20%;
+      margin-right: 9%;
+      margin-left: 2%;
+      font-size: 1.5em;
+      text-align: center;
+      margin-top: 0
+  }
+}
+.edit-post-end-time-na{
+  display: inline-block;
+  background-color: white;
+  width: 40%;
+  border: solid 2px $border;
+  font-size: 4em;
+  margin-top: 2%;
+  color: black;
+  @media screen and (min-width: $break-large) {
+      width: 20%;
+      margin-right: 5%;
+      text-align: center;
+      font-size: 1.5em;
+      margin-top: 0
+  }
+}
+
+.edit-post-description {
+  display: block;
+  height: 25vh;
+  background-color: white;
+  width: 95%;
+  border: solid 2px $border;
+  margin: 2% 0 0 2.5%;
+  color: black;
+  font-size: 4em;
+  @media screen and (min-width: $break-large) {
+      width: 50%;
+      font-size: 1.5em;
+      margin: 1% 0 0 2%;
+      height: 15vh;
+  }
+}
+
+
+.edit-post-btn {
+background-color: $buttonaccent2;
+position: fixed;
+bottom: 0;
+width: 100%;
+text-align: center;
+font-size: 4em;
+line-height: 1.5em;
+color: white;
+cursor: pointer;
+font-weight: 200;
+z-index: 999;
+&:hover{
+ background-color: darken($buttonaccent2, 5%);
+}
+@media screen and (min-width: $break-large) {
+    position: fixed;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.75em;
+}
+}

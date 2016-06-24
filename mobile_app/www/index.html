@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>foodstream</title>
+    <link rel="icon" href="./assets/images/foodstream_logo_transparent.png" type="image/x-icon"/>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://overpass-30e2.kxcdn.com/overpass.css" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="assets/css/styles.css">
+    <link href="assets/js/pickadate/lib/themes/default.css" rel="stylesheet" type='text/css'>
+    <link href="assets/js/pickadate/lib/themes/default.date.css" rel="stylesheet" type='text/css'>
+    <link href="assets/js/pickadate/lib/themes/default.time.css" rel="stylesheet" type='text/css'>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src='cordova.js'></script>
+  </head>
+
+  <body ng-app="foodStream" ng-controller = "appController">
+
+    <div class="app-header">
+      <img src = "assets/images/foodstream_logo_transparent.png" ng-click='goHome()'></img>
+      <div  class='app-header-txt' ng-click='goHome()'>foodstream</div>
+      <span class='app-header-login-icon' ng-show='logged'  ng-click='goToProfile()'>
+        <img ng-src='{{pic}}' class='app-header-profile-pic'></img>
+      </span>
+    </div>
+
+
+      <ng-view></ng-view>
+
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBCD73KiXP6Ng9QyW9dv4gB1STBMFw2og&libraries=places"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular-route.js"></script>
+    <script src='bower_components/ng-file-upload/ng-file-upload-all.js'></script>
+    <script src="assets/js/pickadate/lib/picker.js"></script>
+    <script src="assets/js/pickadate/lib/picker.date.js"></script>
+    <script src="assets/js/pickadate/lib/picker.time.js"></script>
+    <script src = "assets/js/app.js"></script>
+    <script src='assets/js/star-rating-directive.js'></script>
+    <script src='assets/js/loginController.js'></script>
+    <script src = "assets/js/signUpController.js"></script>
+    <script src='assets/js/editProfileController.js'></script>
+    <script src='assets/js/homeController.js'></script>
+    <script src='assets/js/detailController.js'></script>
+    <script src='assets/js/createController.js'></script>
+    <script src='/assets/js/claimedController.js'></script>
+    <script src='/assets/js/resultsController.js'></script>
+    <script src='/assets/js/publicProfileController.js'></script>
+    <script src='assets/js/createdController.js'></script>
+    <script src='assets/js/editPostController.js'></script>
+    <script src='assets/js/chatController.js'></script>
+
+  </body>
+
+</html>

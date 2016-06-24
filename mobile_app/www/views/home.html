@@ -1,0 +1,61 @@
+
+<div class='home-subheader'>
+  <div class='home-subheader-see-all' ng-click='filters= ""'>
+     All
+  </div>
+  <div class='home-subheader-see-claimed' ng-click='seeClaimed()'>
+    Claimed
+  </div>
+  <div class='home-subheader-see-provided' ng-click='seeProvided()'>
+    Supplied
+  </div>
+</div>
+
+<div class = "home-content-wrapper">
+
+  <div ng-show = "loadingIcon" class = "home-loading-icon">
+    <i class="fa fa-cog fa-spin fa-4x fa-fw margin-bottom"></i>
+    <span class="sr-only">Loading...</span>
+  </div>
+
+  <div ng-repeat = "post in posts | filter:filters | orderBy:'end_at'" >
+
+    <div class = "home-card">
+      <div class = "home-header">
+        <div class = "home-post-title">{{post.title}}</div>
+        <div class = "home-post-end">{{post.end_at}}</div>
+      </div>
+
+      <div class = "home-transaction-details">
+
+        <div>{{post.supplier.first_name}} {{post.supplier.last_name}}
+          <div class='home-claimsupply' ng-if='post.supplier_id == userId'>
+            You Supplied This Post
+          </div>
+          <div class='home-claimsupply' ng-if='post.claimant_id == userId'>
+            You Claimed This Post
+          </div>
+          {{post.supplier.organization}}</div>
+        <div>{{post.address_string}}</div>
+
+      </div>
+
+      <div class = "home-chat" ng-click='goToChat(post.id, post.claimant_id, post.supplier_id, post.title)'>
+        <i class="fa fa-comment">
+          <span class='home-chat-text'>Chat</span>
+        </i>
+      </div>
+      <div class = "home-details" ng-click='detailsId(post.id, post.supplier_id, post.claimant_id)'>
+        <i class="fa fa-info-circle">
+          <span class='home-details-text'>Details</span>
+        </i>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+  <div class='home-search' ng-click='search()'>Search Food</div>
+  <div class = "home-post" ng-click='createPost()'>Create Post</div>

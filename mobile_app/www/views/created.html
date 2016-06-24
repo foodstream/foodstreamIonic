@@ -1,0 +1,91 @@
+<div class="created-post-title">
+	{{post.title}}
+</div>
+
+<div class = "created-content-wrapper">
+
+	<div class="created-post-description">
+		<span>Description:</span>
+		{{post.details}}
+	</div>
+
+
+	<div class="created-post-images">
+		<img class='created-post-photo' ng-src = "{{post.post_image}}" width = "400px" height='400px'></img>
+		<div id='created-post-gmap'></div>
+	</div>
+
+	<div class='created-buttons-wrap'>
+				<div class="created-add-cal" ng-click='addToCalendar()'>
+					<i class="fa fa-calendar-plus-o"></i>
+					Add To Calendar
+				</div>
+				<div class='created-post-chat' ng-click='goToChat(post.id, post.supplier.id, post.claimant_id)'>
+					<i class="fa fa-comment" aria-hidden="true"></i>
+					Go To Chat
+				</div>
+			<a href={{directionsLink}} class="created-post-directions-btn">
+				<i class="fa fa-google" aria-hidden="true"></i>
+				Directions
+			</a>
+	</div>
+
+	<div class='created-post-claimed-info' ng-show = "post.claimed">
+		This post has been claimed
+	</div>
+
+
+	<div class = "created-post-complete-button" ng-click="modalShow = true" ng-show = "post.claimed">
+		Mark as complete
+	</div>
+
+	<div class="created-post-address">
+		<span>Address:</span>
+		{{post.address_string}}
+	</div>
+
+	<div class='created-post-time-wrap'>
+		<div class="created-post-start">
+			<span>Starts at:</span>
+			{{post.start_at}}
+		</div>
+		<div class="created-post-end">
+			<span>Pick up by:</span>
+			{{post.end_at}}
+		</div>
+	</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+<!-- Below is footer -->
+
+	<div class="created-post-footer-home" ng-click='goHome()'>
+		Home
+	</div>
+	<div class="created-post-footer-edit" ng-click='goEdit()'>
+		Edit
+	</div>
+	<div class="created-post-footer-delete" ng-click='deletePost()'>
+		Delete
+	</div>
+
+	<div class = "created-post-modal" ng-show = "modalShow">
+		<div class = "created-post-modal-content">
+			<h1>Please rate this exchange.</h1>
+
+			<div class = "created-stars" star-rating rating="claimerRating" read-only="false" max-rating="5"></div>
+
+			<div class = "created-post-button-wrap">
+				<div class = "created-post-review-submit" ng-click = "markComplete()">Submit</div>
+				<div class = "created-post-review-cancel" ng-click = "modalShow = false">Cancel</div>
+			</div>
+		</div>
+	</div>

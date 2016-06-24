@@ -1,0 +1,22 @@
+<div class='chat-subheader'>
+  Chat With <span class='chat-other-user-text'>{{otherUserName}}</span>
+</div>
+
+<div class = "chat-content-wrapper">
+  <div ng-repeat='message in messages' >
+    <div ng-if='message.sender_id == userId' class='chat-current-user-response'>{{message.body}}</div>
+    <div ng-if='message.sender_id !=userId' class='chat-other-user-response'>{{message.body}}</div>
+
+  </div>
+
+</div>
+
+  <div class='chat-input-block'>
+    <input class='chat-input' type=text ng-model:'chatInput' ng-keypress="chatEnter($event)">
+    <i class="fa fa-paper-plane-o chat-button" ng-click='sendMessage()'></i>
+  </div>
+
+
+
+<div class='chat-home-btn' ng-click='goHome()'>Home</div>
+<div class='chat-back-to-post-btn' ng-click='backToPost(message.supplier_id, message.claimant_id)'>Post</div>
