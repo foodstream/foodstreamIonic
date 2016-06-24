@@ -12,12 +12,12 @@
   z-index: 9999999;
   height: 5%;
   // color: darken($headerbg, 20%);
-  @media screen and (min-width: $break-large) {
-      margin-top: 5%;
-      padding: .5% 0 .2% 0;
-      font-size: 2em;
-      font-weight: 600;
-  }
+  // @media screen and (min-width: $break-large) {
+  //     margin-top: 5%;
+  //     padding: .5% 0 .2% 0;
+  //     font-size: 2em;
+  //     font-weight: 600;
+  // }
 }
 .claimed-content-wrapper{
   margin-top: 21.5%;
@@ -25,50 +25,50 @@
   overflow: scroll;
   position: absolute;
   width: 100%;
-  @media screen and (min-width: $break-large) {
-      margin-top: 9%;
-  }
+  // @media screen and (min-width: $break-large) {
+  //     margin-top: 9%;
+  // }
   .claimed-supplier-name-wrap {
     width: 100%;
     font-size: 4em;
     margin: 2% 0 0 0;
-    @media screen and (min-width: $break-large) {
-        font-size: 3em;
-        margin: 1% 0 0 22%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //     font-size: 3em;
+    //     margin: 1% 0 0 22%;
+    // }
     .claimed-supplier-name{
       display: inline-block;
       width: 49%;
       padding: 0 0 0 2%;
-      @media screen and (min-width: $break-large) {
-          font-size: .5em;
-          line-height: 1em;
-          width: 26%;
-      }
+      // @media screen and (min-width: $break-large) {
+      //     font-size: .5em;
+      //     line-height: 1em;
+      //     width: 26%;
+      // }
       span{
         font-size: .75em;
         font-weight: 700;
         display: block;
-        @media screen and (min-width: $break-large) {
-            font-size: 1em;
-        }
+        // @media screen and (min-width: $break-large) {
+        //     font-size: 1em;
+        // }
       }
     }
     .claimed-supplier-org{
       display: inline-block;
       width: 46%;
-      @media screen and (min-width: $break-large) {
-          font-size: .5em;
-          line-height: 1em;
-          width: 30%;
-      }
+      // @media screen and (min-width: $break-large) {
+      //     font-size: .5em;
+      //     line-height: 1em;
+      //     width: 30%;
+      // }
       span{
         font-size: .75em;
         font-weight: 700;
         display: block;
-        @media screen and (min-width: $break-large) {
-            font-size: 1em;
-        }
+        // @media screen and (min-width: $break-large) {
+        //     font-size: 1em;
+        // }
       }
     }
   }
@@ -78,37 +78,37 @@
       width: 100%;
       display: block;
       // border: solid thin black;
-      @media screen and (min-width: $break-large) {
-            margin: 0 0 0 27%;
-      }
+      // @media screen and (min-width: $break-large) {
+      //       margin: 0 0 0 27%;
+      // }
       #claimed-map{
         width: 450px;
         height: 450px;
         margin: 2% 0 2% 2%;
         display: inline-block;
-        @media screen and (min-width: $break-large) {
-            height: 300px;
-            width: 300px;
-            margin: 0;
-            position: absolute;
-            top: 47%;
-            left: 1%;
-
-        }
+        // @media screen and (min-width: $break-large) {
+        //     height: 300px;
+        //     width: 300px;
+        //     margin: 0;
+        //     position: absolute;
+        //     top: 47%;
+        //     left: 1%;
+        //
+        // }
       }
       .claimed-post-photo{
         width: 450px;
         height: 450px;
         margin: 2% 0 2% 2%;
         display: inline-block;
-        @media screen and (min-width: $break-large) {
-            height: 300px;
-            width: 300px;
-            // margin: 1% 0 0 2%;
-            position: absolute;
-            top: -4%;
-            left: -1%;
-        }
+        // @media screen and (min-width: $break-large) {
+        //     height: 300px;
+        //     width: 300px;
+        //     // margin: 1% 0 0 2%;
+        //     position: absolute;
+        //     top: -4%;
+        //     left: -1%;
+        // }
       }
     }
     .claimed-buttons-wrap{
@@ -118,12 +118,12 @@
       border: solid thin darken($border, 20%);
       color: darken($border, 30%);
       margin: 3% 0 0 0;
-      @media screen and (min-width: $break-large) {
-          width: 75%;
-          position: absolute;
-          bottom: 8%;
-          left: 23%;
-      }
+      // @media screen and (min-width: $break-large) {
+      //     width: 75%;
+      //     position: absolute;
+      //     bottom: 8%;
+      //     left: 23%;
+      // }
       .claimed-calendar{
         display: inline-block;
         width: 33%;
@@ -132,21 +132,21 @@
         border-right: solid thin darken($border, 20%);
         height: 100%;
         font-size: 2.5em;
-        @media screen and (min-width: $break-large) {
-            font-size: 1.25em;
-            cursor: pointer;
-            &:hover{
-              color: darken($border, 50%);
-            }
-        }
+        // @media screen and (min-width: $break-large) {
+        //     font-size: 1.25em;
+        //     cursor: pointer;
+        //     &:hover{
+        //       color: darken($border, 50%);
+        //     }
+        // }
         .fa-calendar-plus-o{
           margin: 5% 0 4% 0;
           display: block;
           font-size: 2.5em;
-          @media screen and (min-width: $break-large) {
-              font-size: 1.25em;
-              margin: 4% 0 2% 0;
-          }
+          // @media screen and (min-width: $break-large) {
+          //     font-size: 1.25em;
+          //     margin: 4% 0 2% 0;
+          // }
         }
       }
       .claimed-chat{
@@ -157,21 +157,21 @@
         border-right: solid thin darken($border, 20%);
         height: 100%;
         font-size: 2.5em;
-        @media screen and (min-width: $break-large) {
-            font-size: 1.25em;
-            cursor: pointer;
-            &:hover{
-              color: darken($border, 50%);
-            }
-        }
+        // @media screen and (min-width: $break-large) {
+        //     font-size: 1.25em;
+        //     cursor: pointer;
+        //     &:hover{
+        //       color: darken($border, 50%);
+        //     }
+        // }
         .fa-comment{
           margin: 5% 0 4% 0;
           display: block;
           font-size: 2.5em;
-          @media screen and (min-width: $break-large) {
-              font-size: 1.25em;
-              margin: 4% 0 2% 0;
-          }
+          // @media screen and (min-width: $break-large) {
+          //     font-size: 1.25em;
+          //     margin: 4% 0 2% 0;
+          // }
         }
       }
       .claimed-directions{
@@ -183,21 +183,21 @@
         height: 100%;
         text-decoration: none;
         font-size: 2.5em;
-        @media screen and (min-width: $break-large) {
-            font-size: 1.25em;
-            cursor: pointer;
-            &:hover{
-              color: darken($border, 50%);
-            }
-        }
+        // @media screen and (min-width: $break-large) {
+        //     font-size: 1.25em;
+        //     cursor: pointer;
+        //     &:hover{
+        //       color: darken($border, 50%);
+        //     }
+        // }
         .fa-google{
           margin: 5% 0 4% 0;
           display: block;
           font-size: 2.5em;
-          @media screen and (min-width: $break-large) {
-              font-size: 1.25em;
-              margin: 4% 0 2% 0;
-          }
+          // @media screen and (min-width: $break-large) {
+          //     font-size: 1.25em;
+          //     margin: 4% 0 2% 0;
+          // }
         }
       }
     }
@@ -206,20 +206,20 @@
       width: 96%;
       font-size: 4em;
       margin: 2% 0 0 2%;
-      @media screen and (min-width: $break-large) {
-          width: 75%;
-          margin: 1% 0 0 23%;
-          font-size: 1em;
-          position: absolute;
-          bottom: 27.5%;
-      }
+      // @media screen and (min-width: $break-large) {
+      //     width: 75%;
+      //     margin: 1% 0 0 23%;
+      //     font-size: 1em;
+      //     position: absolute;
+      //     bottom: 27.5%;
+      // }
       .claimed-start{
         width: 49%;
         display: inline-block;
-        @media screen and (min-width: $break-large) {
-            font-size: 2em;
-            width: 35%;
-        }
+        // @media screen and (min-width: $break-large) {
+        //     font-size: 2em;
+        //     width: 35%;
+        // }
         span{
           display: block;
           font-weight: 700;
@@ -229,10 +229,10 @@
       .claimed-end{
         width: 49%;
         display: inline-block;
-        @media screen and (min-width: $break-large) {
-            font-size: 2em;
-            width: 35%;
-        }
+        // @media screen and (min-width: $break-large) {
+        //     font-size: 2em;
+        //     width: 35%;
+        // }
         span{
           display: block;
           font-weight: 700;
@@ -245,13 +245,13 @@
       font-size: 4em;
       margin: 2% 0 0 2%;
       display: block;
-      @media screen and (min-width: $break-large) {
-          margin: 5% 0 1% 23%;
-          font-size: 2.5em;
-          width: 75%;
-          position: absolute;
-          bottom: 40%;
-      }
+      // @media screen and (min-width: $break-large) {
+      //     margin: 5% 0 1% 23%;
+      //     font-size: 2.5em;
+      //     width: 75%;
+      //     position: absolute;
+      //     bottom: 40%;
+      // }
       span{
         display: block;
         font-size: .75em;
@@ -262,11 +262,11 @@
       font-size: 4em;
       margin: 2% 0 0 2%;
       display: block;
-      @media screen and (min-width: $break-large) {
-          font-size: 2.5em;
-          margin: 1% 3% 0 24%;
-          width: 75%;
-      }
+      // @media screen and (min-width: $break-large) {
+      //     font-size: 2.5em;
+      //     margin: 1% 3% 0 24%;
+      //     width: 75%;
+      // }
       span{
         display: block;
         font-size: .5em;
@@ -288,11 +288,11 @@
   cursor: pointer;
   background-color: $buttonbg;
   cursor: pointer;
-  @media screen and (min-width: $break-large) {
-      font-size: 2em;
-      font-weight: 600;
-      line-height: 1.75em;
-  }
+  // @media screen and (min-width: $break-large) {
+  //     font-size: 2em;
+  //     font-weight: 600;
+  //     line-height: 1.75em;
+  // }
   &:hover{
     background-color: darken($buttonbg, 5%);
   }
@@ -311,11 +311,11 @@
   cursor: pointer;
   background-color: $buttonaccent2;
   cursor: pointer;
-  @media screen and (min-width: $break-large) {
-      font-size: 2em;
-      font-weight: 600;
-      line-height: 1.75em;
-  }
+  // @media screen and (min-width: $break-large) {
+  //     font-size: 2em;
+  //     font-weight: 600;
+  //     line-height: 1.75em;
+  // }
   &:hover{
     background-color: darken($buttonaccent2, 5%);
   }

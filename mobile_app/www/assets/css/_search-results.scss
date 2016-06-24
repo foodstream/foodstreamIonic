@@ -5,51 +5,51 @@
   background-color:lighten($headerbg, 35%);
   width: 100%;
   z-index: 999;
-  @media screen and (min-width: $break-large) {
-      position: fixed;
-      margin: 2.5% 0 0 0;
-      width: 100%;
-      padding: 2% 0 0 0;
-      font-size: 1.75em;
-      text-align: left;
-      color: darken($headerbg, 5%);
-  }
+  // @media screen and (min-width: $break-large) {
+  //     position: fixed;
+  //     margin: 2.5% 0 0 0;
+  //     width: 100%;
+  //     padding: 2% 0 0 0;
+  //     font-size: 1.75em;
+  //     text-align: left;
+  //     color: darken($headerbg, 5%);
+  // }
   #search-results-search{
     margin: 2% 0 0 2%;
     width: 95%;
     font-size: 2em;
-    @media screen and (min-width: $break-large) {
-        font-size: .75em;
-        line-height: 1em;
-        margin: 1.5% 0 0 5.5%;
-        width: 50%;
-        border: none;
-        display: inline-block;
-    }
+    // @media screen and (min-width: $break-large) {
+    //     font-size: .75em;
+    //     line-height: 1em;
+    //     margin: 1.5% 0 0 5.5%;
+    //     width: 50%;
+    //     border: none;
+    //     display: inline-block;
+    // }
   }
   #search-results-subheader-text{
     font-size: 2em;
     margin: 2% 0 0 2%;
     padding: 0 0 2% 0;
     line-height: 2em;
-    @media screen and (min-width: $break-large) {
-        font-size: .6em;
-        padding: 0 0 .75% 0;
-        margin: 0 0 0 2.5%;
-        line-height: 1em;
-        display: inline-block;
-    }
+    // @media screen and (min-width: $break-large) {
+    //     font-size: .6em;
+    //     padding: 0 0 .75% 0;
+    //     margin: 0 0 0 2.5%;
+    //     line-height: 1em;
+    //     display: inline-block;
+    // }
     #search-results-distance-input{
       width: 7%;
       font-size: 1em;
       border: none;
-      @media screen and (min-width: $break-large) {
-          font-size: 1em;
-          text-align: center;
-          width: 7.5%;
-          color: darken($headerbg, 5%);
-          display: inline-block;
-      }
+      // @media screen and (min-width: $break-large) {
+      //     font-size: 1em;
+      //     text-align: center;
+      //     width: 7.5%;
+      //     color: darken($headerbg, 5%);
+      //     display: inline-block;
+      // }
     }
     #search-results-subheader-search-button{
       display: inline-block;
@@ -64,14 +64,14 @@
       &:hover{
         background-color: lighten($buttonbg, 5%);
       }
-      @media screen and (min-width: $break-large) {
-          font-size: .75em;
-          margin: -1% 22% 0 0;
-          padding: 1%;
-          border: 3px solid lighten($buttonbg, 5%);
-          border-radius: 7px;
-          line-height: 1.5em;
-      }
+      // @media screen and (min-width: $break-large) {
+      //     font-size: .75em;
+      //     margin: -1% 22% 0 0;
+      //     padding: 1%;
+      //     border: 3px solid lighten($buttonbg, 5%);
+      //     border-radius: 7px;
+      //     line-height: 1.5em;
+      // }
     }
   }
 }
@@ -82,22 +82,22 @@ width: 100%;
 border: solid thin black;
 height: 78vh;
 overflow: scroll;
-@media screen and (min-width: $break-large) {
-  margin: 9% 0 0 0;
-  height: 77vh;
-}
+// @media screen and (min-width: $break-large) {
+//   margin: 9% 0 0 0;
+//   height: 77vh;
+// }
 .search-results-loading-icon {
   margin-top: 15%;
   font-size: 4em;
-  @media screen and (min-width: $break-large) {
-      margin-top: 10%;
-      font-size: 2em;
-  }
+  // @media screen and (min-width: $break-large) {
+  //     margin-top: 10%;
+  //     font-size: 2em;
+  // }
   i {
     margin-left: 32%;
-    @media screen and (min-width: $break-large) {
-        margin-left: 43%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //     margin-left: 43%;
+    // }
   }
   span {
     display: block;
@@ -111,10 +111,10 @@ overflow: scroll;
   background-color: white;
   width:99.8%;
   margin: 2.5% 0;
-  @media screen and (min-width: $break-large) {
-    width: 95%;
-    margin: 1% 0 1% 2.5%;
-  }
+  // @media screen and (min-width: $break-large) {
+  //   width: 95%;
+  //   margin: 1% 0 1% 2.5%;
+  // }
   .results-header {
     height: $cardHeight / 5;
     background-color: lighten($border, 2%);
@@ -123,10 +123,10 @@ overflow: scroll;
     font-weight: 700;
     width: 100%;
     // border: solid thin black;
-    @media screen and (min-width: $break-large) {
-      font-size: 2em;
-
-    }
+    // @media screen and (min-width: $break-large) {
+    //   font-size: 2em;
+    //
+    // }
     .results-card-title {
       // border: solid thin black;
       padding: 1% 0 0 1%;
@@ -135,9 +135,9 @@ overflow: scroll;
       display: inline-block;
       overflow: hidden;
       text-overflow: ellipsis;
-      @media screen and (min-width: $break-large) {
-        padding: 0 0 0 1%;
-      }
+      // @media screen and (min-width: $break-large) {
+      //   padding: 0 0 0 1%;
+      // }
     }
     .results-card-end {
         // border: solid thin black;
@@ -145,28 +145,28 @@ overflow: scroll;
       float: right;
       display: inline-block;
       padding: 1.5% 1% 0 0;
-      @media screen and (min-width: $break-large) {
-        padding: 0 1.5% 0 0;
-      }
+      // @media screen and (min-width: $break-large) {
+      //   padding: 0 1.5% 0 0;
+      // }
     }
   }
   .results-pic-wrap{
     position: absolute;
     width: 20%;
     margin: 2% 0 0 0;
-    @media screen and (min-width: $break-large) {
-      width: 15%;
-      margin: .5% 0 0 .5%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //   width: 15%;
+    //   margin: .5% 0 0 .5%;
+    // }
   .results-add-picture{
     // position: absolute;
     // margin: -10% 0 0 1%;
     // display: inline-block;
     width: 95%;
     height: 200px;
-    @media screen and (min-width: $break-large) {
-      height: 115px;
-    }
+    // @media screen and (min-width: $break-large) {
+    //   height: 115px;
+    // }
   }
   }
 
@@ -179,11 +179,11 @@ overflow: scroll;
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
-    @media screen and (min-width: $break-large) {
-      margin: 0 0 0 17%;
-      font-size: 1.5em;
-
-    }
+    // @media screen and (min-width: $break-large) {
+    //   margin: 0 0 0 17%;
+    //   font-size: 1.5em;
+    //
+    // }
     .results-supplier-name-text{
       line-height: 1.5em;
       font-weight: 700;
@@ -207,9 +207,9 @@ overflow: scroll;
     color: white;
     cursor: pointer;
     border-left: solid thin $border;
-    @media screen and (min-width: $break-large) {
-      width: 26.5%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //   width: 26.5%;
+    // }
     &:hover{
       background-color: lighten($border, 3%);
     }
@@ -217,10 +217,10 @@ overflow: scroll;
       font-size: 6em;
       margin: 20% 0 0 0;
         color: lighten(lightslategray, 20%);
-      @media screen and (min-width: $break-large) {
-        margin: 4% 0 0 0;
-        font-size: 4em;
-      }
+      // @media screen and (min-width: $break-large) {
+      //   margin: 4% 0 0 0;
+      //   font-size: 4em;
+      // }
       .search-details-text{
         display: block;
         font-family: 'overpass', sans-serif;
@@ -246,9 +246,9 @@ overflow: scroll;
   &:hover{
     background-color: darken($buttonaccent2, 5%);
   }
-  @media screen and (min-width: $break-large) {
-      font-size: 2em;
-      line-height: 1.75em;
-      font-weight: 600;
-  }
+  // @media screen and (min-width: $break-large) {
+  //     font-size: 2em;
+  //     line-height: 1.75em;
+  //     font-weight: 600;
+  // }
 }

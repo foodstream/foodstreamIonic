@@ -19,15 +19,15 @@
   position: fixed;
   top: 7%;
   z-index: 999;
-  @media screen and (min-width: $break-large) {
-      padding: 1.45% 0 .15% 0;
-      font-size: 1.5em;
-      font-weight: 700;
-      display: block;
-      top: 50px;
-      z-index: 0;
-      height: 4%;
-  }
+  // @media screen and (min-width: $break-large) {
+  //     padding: 1.45% 0 .15% 0;
+  //     font-size: 1.5em;
+  //     font-weight: 700;
+  //     display: block;
+  //     top: 50px;
+  //     z-index: 0;
+  //     height: 4%;
+  // }
   .home-subheader-see-all{
     line-height: 1.2em;
     text-align: center;
@@ -37,10 +37,10 @@
     &:hover{
       background-color: lighten($headerbg, 25%);
     }
-    @media screen and (min-width: $break-large) {
-      line-height: 1.4em;
-      width: 33.3%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //   line-height: 1.4em;
+    //   width: 33.3%;
+    // }
   }
   .home-subheader-see-claimed{
     line-height: 1.2em;
@@ -53,10 +53,10 @@
     &:hover{
       background-color: lighten($headerbg, 25%);
     }
-    @media screen and (min-width: $break-large) {
-      line-height: 1.4em;
-      width: 33.3%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //   line-height: 1.4em;
+    //   width: 33.3%;
+    // }
   }
   .home-subheader-see-provided{
     line-height: 1.2em;
@@ -67,10 +67,10 @@
     &:hover{
       background-color: lighten($headerbg, 25%);
     }
-    @media screen and (min-width: $break-large) {
-      line-height: 1.4em;
-      width: 33.3%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //   line-height: 1.4em;
+    //   width: 33.3%;
+    // }
   }
 }
 .home-content-wrapper {
@@ -80,11 +80,11 @@
   // border: solid thin black;
   height: 83vh;
   position: absolute;
-  overflow: scroll;
-  @media screen and (min-width: $break-large) {
-    margin: 7% 0 0 0;
-    height: 80vh;
-  }
+  // overflow: scroll;
+  // @media screen and (min-width: $break-large) {
+  //   margin: 7% 0 0 0;
+  //   height: 80vh;
+  // }
   .home-card {
     display: block;
     height: $cardHeight;
@@ -92,22 +92,22 @@
     background-color: white;
     width:100%;
     margin: 2.5% 0;
-    @media screen and (min-width: $break-large) {
-        height: $cardHeight * .85;
-        border: 2px solid darken($border, 5%);
-        width: 95%;
-        margin: 1% 0 1% 2%;
-        z-index: 1;
-    }
+    // @media screen and (min-width: $break-large) {
+    //     height: $cardHeight * .85;
+    //     border: 2px solid darken($border, 5%);
+    //     width: 95%;
+    //     margin: 1% 0 1% 2%;
+    //     z-index: 1;
+    // }
     .home-header {
       height: $cardHeight / 5;
       background-color:  lighten($border, 2%);
       font-size: 3em;
       font-weight: 700;
-      @media screen and (min-width: $break-large) {
-          font-size: 1.75em;
-          z-index: 2;
-      }
+      // @media screen and (min-width: $break-large) {
+      //     font-size: 1.75em;
+      //     z-index: 2;
+      // }
       .home-post-title {
         padding: 0 0 0 1%;
         width: 50%;
@@ -122,9 +122,9 @@
         display: inline;
         color: lighten(black, 30%);
         margin: 1% 1% 0 0;
-        @media screen and (min-width: $break-large) {
-          margin: .5% 1% 0 0;
-        }
+        // @media screen and (min-width: $break-large) {
+        //   margin: .5% 1% 0 0;
+        // }
       }
 
     }
@@ -133,9 +133,9 @@
       width: 60%;
       font-size: 2.5em;
       padding: 0 0 0 1%;
-      @media screen and (min-width: $break-large) {
-          font-size: 1.5em;
-      }
+      // @media screen and (min-width: $break-large) {
+      //     font-size: 1.5em;
+      // }
       .home-claimsupply{
         color:  darken($border, 15%);
         font-size: .75em;
@@ -151,39 +151,39 @@
       text-align: center;
       cursor: pointer;
       border-left: solid thin $border;
-      @media screen and (min-width: $break-large) {
-        height: $cardHeight * .65;
-        font-size: .4em;
-        width: 12%;
-        margin-left: 11%;
-        border: none;
-      }
+      // @media screen and (min-width: $break-large) {
+      //   height: $cardHeight * .65;
+      //   font-size: .4em;
+      //   width: 12%;
+      //   margin-left: 11%;
+      //   border: none;
+      // }
 
       .fa-comment{
         margin: 15% 0 0 0;
         color: lighten(lightslategray, 20%);
         font-size: 6em;
         display: block;
-        @media screen and (min-width: $break-large) {
-            font-size: 6em;
-            margin: 9% 0;
-            &:hover{
-            background-color: none;
-            color: lighten(lightslategray, 1%);
-            }
-        }
+        // @media screen and (min-width: $break-large) {
+        //     font-size: 6em;
+        //     margin: 9% 0;
+        //     &:hover{
+        //     background-color: none;
+        //     color: lighten(lightslategray, 1%);
+        //     }
+        // }
       }
       .home-chat-text{
         font-size: .5em;
         font-family: 'overpass', sans-serif;
-        @media screen and (min-width: $break-large) {
-          display: block;
-          font-size: .7em;
-          line-height: 1.2em;
-          &:hover{
-            color: lighten(lightslategray, 1%);
-          }
-        }
+        // @media screen and (min-width: $break-large) {
+        //   display: block;
+        //   font-size: .7em;
+        //   line-height: 1.2em;
+        //   &:hover{
+        //     color: lighten(lightslategray, 1%);
+        //   }
+        // }
       }
     }
 
@@ -199,35 +199,35 @@
       &:hover{
         background-color: lighten($border, 5%);
       }
-      @media screen and (min-width: $break-large) {
-          height: $cardHeight * .65;
-          font-size: .4em;
-          border: none;
-          border-bottom-left-radius: 25px;
-          border-bottom-right-radius: 5px;
-          width: 12%;
-          margin-left: 24%;
-      }
+      // @media screen and (min-width: $break-large) {
+      //     height: $cardHeight * .65;
+      //     font-size: .4em;
+      //     border: none;
+      //     border-bottom-left-radius: 25px;
+      //     border-bottom-right-radius: 5px;
+      //     width: 12%;
+      //     margin-left: 24%;
+      // }
 
       .fa-info-circle{
         margin: 15% 0 0 0;
         color: lighten(lightslategray, 20%);
         font-size: 6em;
         display: block;
-        @media screen and (min-width: $break-large) {
-            font-size: 6em;
-            margin: 9% 0;
-            &:hover{
-              color: lighten(lightslategray, 1%);
-            }
-        }
+        // @media screen and (min-width: $break-large) {
+        //     font-size: 6em;
+        //     margin: 9% 0;
+        //     &:hover{
+        //       color: lighten(lightslategray, 1%);
+        //     }
+        // }
         .home-details-text{
           font-size: .5em;
           font-family: 'overpass', sans-serif;
-          @media screen and (min-width: $break-large) {
-              font-size: .7em;
-              display: block;
-          }
+          // @media screen and (min-width: $break-large) {
+          //     font-size: .7em;
+          //     display: block;
+          // }
         }
       }
     }
@@ -251,11 +251,11 @@
     &:hover{
       background-color: darken($buttonaccent2, 5%);
     }
-    @media screen and (min-width: $break-large) {
-        font-size: 2em;
-        font-weight: 600;
-        line-height: 1.75em;
-    }
+    // @media screen and (min-width: $break-large) {
+    //     font-size: 2em;
+    //     font-weight: 600;
+    //     line-height: 1.75em;
+    // }
   }
   .home-post{
     position: fixed;
@@ -274,9 +274,9 @@
     &:hover{
       background-color: darken($buttonbg, 5%);
     }
-    @media screen and (min-width: $break-large) {
-        font-size: 2em;
-        font-weight: 600;
-        line-height: 1.75em;
-    }
+    // @media screen and (min-width: $break-large) {
+    //     font-size: 2em;
+    //     font-weight: 600;
+    //     line-height: 1.75em;
+    // }
   }

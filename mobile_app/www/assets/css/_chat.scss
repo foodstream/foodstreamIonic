@@ -11,15 +11,15 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  @media screen and (min-width: $break-large) {
-    position: fixed;
-    padding: 2% 0 0 0;
-    font-size: 1.5em;
-    font-weight: 600;
-    width: 100vw;
-    display: block;
-    top: 50px;
-  }
+  // @media screen and (min-width: $break-large) {
+  //   position: fixed;
+  //   padding: 2% 0 0 0;
+  //   font-size: 1.5em;
+  //   font-weight: 600;
+  //   width: 100vw;
+  //   display: block;
+  //   top: 50px;
+  // }
   .chat-other-user-text{
     font-weight: 700;
   }
@@ -30,11 +30,11 @@
   height: 73vh;
   // border: solid thin black;
   overflow: scroll;
-  @media screen and (min-width: $break-large) {
-    margin: 8% 0 0 0;
-    height: 70vh;
-    width: 100vw;
-  }
+  // @media screen and (min-width: $break-large) {
+  //   margin: 8% 0 0 0;
+  //   height: 70vh;
+  //   width: 100vw;
+  // }
   .chat-other-user-response{
     width: 65%;
     display: block;
@@ -45,10 +45,10 @@
     margin: 2%;
     padding: 2% 1%;
       box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-    @media screen and (min-width: $break-large) {
-      font-size: 1.2em;
-      padding: 1%
-    }
+    // @media screen and (min-width: $break-large) {
+    //   font-size: 1.2em;
+    //   padding: 1%
+    // }
   }
   .chat-current-user-response{
     // border: solid thin black;
@@ -61,10 +61,10 @@
     padding: 2% 1%;
     border-radius: .3em .3em 0 .3em;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-    @media screen and (min-width: $break-large) {
-      font-size: 1.2em;
-      padding: 1%
-    }
+    // @media screen and (min-width: $break-large) {
+    //   font-size: 1.2em;
+    //   padding: 1%
+    // }
   }
 }
 .chat-input-block{
@@ -74,10 +74,10 @@
   width: 100%;
   border-top: darken($border, 30%);
   display: block;
-  @media screen and (min-width: $break-large) {
-  position: fixed;
-  bottom: 7%;
-  }
+  // @media screen and (min-width: $break-large) {
+  // position: fixed;
+  // bottom: 7%;
+  // }
   .chat-input{
     width: 80%;
     font-size: 3em;
@@ -86,11 +86,11 @@
     border: solid 2px $buttonbg;
     border-right: solid 2px transparent;
     border-radius: 5px;
-    @media screen and (min-width: $break-large) {
-      font-size: 1.8em;
-      line-height: 1.5em;
-      margin: 0 0 0 8%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //   font-size: 1.8em;
+    //   line-height: 1.5em;
+    //   margin: 0 0 0 8%;
+    // }
     }
     .fa-paper-plane-o{
       display: inline-block;
@@ -100,11 +100,11 @@
       color: white;
       background-color: $buttonbg;
       border-radius: 5px;
-      @media screen and (min-width: $break-large) {
-        font-size: 1.5em;
-        padding: 1%;
-        cursor: pointer;
-      }
+      // @media screen and (min-width: $break-large) {
+      //   font-size: 1.5em;
+      //   padding: 1%;
+      //   cursor: pointer;
+      // }
       &:hover{
         color: $buttonbg;
         background-color: white;
@@ -126,10 +126,10 @@
   left: 0;
   cursor: pointer;
   font-weight: 300;
-  @media screen and (min-width: $break-large) {
-  font-size: 2em;
-  line-height: 1.75em;
-}
+//   @media screen and (min-width: $break-large) {
+//   font-size: 2em;
+//   line-height: 1.75em;
+// }
   &:hover{
     background-color: darken($buttonaccent2, 5%);
   }
@@ -147,10 +147,10 @@
   left: 50%;
   cursor: pointer;
   font-weight: 300;
-  @media screen and (min-width: $break-large) {
-    font-size: 2em;
-    line-height: 1.75em;
-  }
+  // @media screen and (min-width: $break-large) {
+  //   font-size: 2em;
+  //   line-height: 1.75em;
+  // }
   &:hover{
     background-color: darken($buttonbg, 5%);
   }

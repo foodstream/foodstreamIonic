@@ -10,10 +10,10 @@
   font-size: 5em;
   // margin-top: 12%;
   z-index: 999;
-  @media screen and (min-width: $break-large) {
-        font-size: 2em;
-        top: 9%;
-  }
+  // @media screen and (min-width: $break-large) {
+  //       font-size: 2em;
+  //       top: 9%;
+  // }
 }
 .edit-profile-top-btn-wrap{
   position: fixed;
@@ -25,11 +25,11 @@
   font-size: 2.5em;
   background-color: lighten($border, 4%);
   z-index: 999;
-  @media screen and (min-width: $break-large) {
-      top: 14%;
-      font-size: 1.25em;
-      // padding-top: .5%;
-  }
+  // @media screen and (min-width: $break-large) {
+  //     top: 14%;
+  //     font-size: 1.25em;
+  //     // padding-top: .5%;
+  // }
   .edit-profile-change-email{
     display: inline-block;
     width: 33%;
@@ -70,32 +70,33 @@
   height: 73vh;
   // border: solid thin black;
   color: lighten(black, 35%);
-  @media screen and (min-width: $break-large) {
-      margin-top: 9.5%;
-      height: 75vh;
-  }
+  // @media screen and (min-width: $break-large) {
+  //     margin-top: 9.5%;
+  //     height: 75vh;
+  // }
   .edit-profile-image{
     margin: 2% 0 2% 35%;
-    @media screen and (min-width: $break-large) {}
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-    margin: 2% 0 2% 20%;
+  //   @media screen and (min-width: $break-large) {
+  //   height: 200px;
+  //   width: 200px;
+  //   display: inline-block;
+  //   margin: 2% 0 2% 20%;
+  // }
   }
 
   .edit-profile-rating{
     width: 100%;
     text-align: center;
     font-size: 2em;
-    @media screen and (min-width: $break-large) {
-        font-size: 2em;
-        width: 60%;
-        display: inline-block;
-        // margin: -10% 0 0 0;
-        position: absolute;
-        top: 19%;
-        left: 25%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //     font-size: 2em;
+    //     width: 60%;
+    //     display: inline-block;
+    //     // margin: -10% 0 0 0;
+    //     position: absolute;
+    //     top: 19%;
+    //     left: 25%;
+    // }
     .actual-stars {
       font-size: 1.5em;
       color: lighten(black, 35%);
@@ -111,65 +112,65 @@
     font-size: 3em;
     line-height: 1.5em;
     margin: 2% 0 0 2.5%;
-    @media screen and (min-width: $break-large) {
-        margin: 0  0 0 3%;
-        padding: 1% 0;
-        font-size: 2em;
-        display: inline-block;
-        width: 42%;
-        position: absolute;
-        top: 35%;
-        left: 35%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //     margin: 0  0 0 3%;
+    //     padding: 1% 0;
+    //     font-size: 2em;
+    //     display: inline-block;
+    //     width: 42%;
+    //     position: absolute;
+    //     top: 35%;
+    //     left: 35%;
+    // }
   }
   .edit-profile-first-name{
     margin: 2% 0 2% 2%;
     width: 40vw;
     font-size: 4em;
     border: solid thin darken($border, 5%);
-    @media screen and (min-width: $break-large) {
-        font-size: 1.5em;
-        width: 28vw;
-        margin: 2% 1% 2% -14.2%;
-        position: absolute;
-        top: 45%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //     font-size: 1.5em;
+    //     width: 28vw;
+    //     margin: 2% 1% 2% -14.2%;
+    //     position: absolute;
+    //     top: 45%;
+    // }
   }
   .edit-profile-last-name{
     margin: 2% 0 0 2%;
     width: 40vw;
     font-size: 4em;
     border: solid thin darken($border, 5%);
-    @media screen and (min-width: $break-large) {
-        font-size: 1.5em;
-        width: 28vw;
-        position: absolute;
-        top: 45%;
-        right: 19.3%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //     font-size: 1.5em;
+    //     width: 28vw;
+    //     position: absolute;
+    //     top: 45%;
+    //     right: 19.3%;
+    // }
   }
   .edit-profile-organization{
     margin: 2%;
     width: 96vw;
     font-size: 4em;
     border: solid thin darken($border, 5%);
-    @media screen and (min-width: $break-large) {
-        font-size: 1.5em;
-        width: 60vw;
-        margin-left: 20%;
-        margin: 4% 0 1% 20%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //     font-size: 1.5em;
+    //     width: 60vw;
+    //     margin-left: 20%;
+    //     margin: 4% 0 1% 20%;
+    // }
   }
   .edit-profile-location{
     margin: 2%;
     width: 96vw;
     font-size: 4em;
     border: solid thin darken($border, 5%);
-    @media screen and (min-width: $break-large) {
-        font-size: 1.5em;
-        width: 60vw;
-        margin: 1% 0 1% 20%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //     font-size: 1.5em;
+    //     width: 60vw;
+    //     margin: 1% 0 1% 20%;
+    // }
   }
   .edit-profile-description{
     display: block;
@@ -178,11 +179,11 @@
     height: 18vh;
     font-size: 4em;
     border: solid thin darken($border, 5%);
-    @media screen and (min-width: $break-large) {
-        font-size: 1.5em;
-        width: 60vw;
-        margin: 1% 0 1% 20%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //     font-size: 1.5em;
+    //     width: 60vw;
+    //     margin: 1% 0 1% 20%;
+    // }
   }
 }
 #file-input-edit-profile{
@@ -203,37 +204,37 @@
   color: white;
   cursor: pointer;
   font-weight: 200;
-  @media screen and (min-width: $break-large) {
-      font-size: 2em;
-      font-weight: 600;
-      line-height: 1.75em;
-  }
+  // @media screen and (min-width: $break-large) {
+  //     font-size: 2em;
+  //     font-weight: 600;
+  //     line-height: 1.75em;
+  // }
   &:hover{
     background-color: darken($buttonaccent2, 5%);
   }
 }
 
 .edit-profile-upload-verify {
-  @media screen and (min-width: $break-large) {
-    position:absolute;
-    top: 30%;
-    left: 31.5%;
-    width: 50%;
-  }
+  // @media screen and (min-width: $break-large) {
+  //   position:absolute;
+  //   top: 30%;
+  //   left: 31.5%;
+  //   width: 50%;
+  // }
   .fa-check-square-o{
     color: $buttonaccent2;
     font-size: 5em;
     margin-left: 30%;
     display: inline;
-    @media screen and (min-width: $break-large) {
-      font-size: 1.5em;
-    }
+    // @media screen and (min-width: $break-large) {
+    //   font-size: 1.5em;
+    // }
   }
   div {
     display: inline;
     font-size: 3em;
-    @media screen and (min-width: $break-large) {
-      font-size: 2em;
-    }
+    // @media screen and (min-width: $break-large) {
+    //   font-size: 2em;
+    // }
   }
 }

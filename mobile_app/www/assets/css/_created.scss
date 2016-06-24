@@ -11,12 +11,12 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  @media screen and (min-width: $break-large) {
-      font-size: 2em;
-      line-height: 1em;
-      margin: 5% 0 0 0;
-      padding: .5% 0;
-  }
+  // @media screen and (min-width: $break-large) {
+  //     font-size: 2em;
+  //     line-height: 1em;
+  //     margin: 5% 0 0 0;
+  //     padding: .5% 0;
+  // }
 }
 .created-content-wrapper{
   margin-top: 24%;
@@ -25,31 +25,31 @@
   position: absolute;
   width: 100%;
   height: 80vh;
-  @media screen and (min-width: $break-large) {
-      margin: 8% 0 0 0;
-      padding: 1% 0 0 0 ;
-      border: solid thin black;
-      height: 77vh;
-  }
+  // @media screen and (min-width: $break-large) {
+  //     margin: 8% 0 0 0;
+  //     padding: 1% 0 0 0 ;
+  //     border: solid thin black;
+  //     height: 77vh;
+  // }
     .created-post-description {
       width: 60%;
       font-size: 4em;
       margin: 2% 0 0 2.5%;
       color: black;
       display: block;
-      @media screen and (min-width: $break-large) {
-        font-size: 2.5em;
-        margin: 0 3% 0 25%;
-        width: 70%;
-      }
+      // @media screen and (min-width: $break-large) {
+      //   font-size: 2.5em;
+      //   margin: 0 3% 0 25%;
+      //   width: 70%;
+      // }
       span{
         font-size: .75em;
         font-weight: 700;
         display: block;
-        @media screen and (min-width: $break-large) {
-            padding-bottom: 1%;
-            font-size: 1em;
-        }
+        // @media screen and (min-width: $break-large) {
+        //     padding-bottom: 1%;
+        //     font-size: 1em;
+        // }
       }
     }
 
@@ -58,9 +58,9 @@
       display: block;
       // border: solid thin black;
       margin: 2% 0;
-      @media screen and (min-width: $break-large) {
-          margin-left: 26.5%;
-      }
+      // @media screen and (min-width: $break-large) {
+      //     margin-left: 26.5%;
+      // }
       .created-post-photo {
         display: inline-block;
         height: 450px;
@@ -69,13 +69,13 @@
         margin: 0 1% 0 2%;
         // margin: 2% 0 0 5%;
         // border: solid thin black;
-        @media screen and (min-width: $break-large) {
-            height: 300px;
-            width: 300px;
-            position: absolute;
-            top: 1%;
-            left: .5%;
-        }
+        // @media screen and (min-width: $break-large) {
+        //     height: 300px;
+        //     width: 300px;
+        //     position: absolute;
+        //     top: 1%;
+        //     left: .5%;
+        // }
 
         }
         #created-post-gmap{
@@ -83,13 +83,13 @@
           height: 450px;
           display: inline-block;
           margin: 0 1%;
-          @media screen and (min-width: $break-large) {
-              height: 300px;
-              width: 300px;
-              position: absolute;
-              top: 52%;
-              left: 1.5%;
-          }
+          // @media screen and (min-width: $break-large) {
+          //     height: 300px;
+          //     width: 300px;
+          //     position: absolute;
+          //     top: 52%;
+          //     left: 1.5%;
+          // }
         }
       }
 
@@ -98,13 +98,13 @@
         width: 96%;
         margin: 2% 0 0 2%;
         font-size: 4em;
-        @media screen and (min-width: $break-large) {
-          margin: 5% 0 1% 25%;
-          font-size: 1.5em;
-          width: 70%;
-          position: absolute;
-          bottom: 40%;
-        }
+        // @media screen and (min-width: $break-large) {
+        //   margin: 5% 0 1% 25%;
+        //   font-size: 1.5em;
+        //   width: 70%;
+        //   position: absolute;
+        //   bottom: 40%;
+        // }
         span{
           font-weight: 700;
           font-size: .75em;
@@ -118,13 +118,13 @@
         border: solid thin darken($border, 20%);
         display: block;
         color: darken($border, 30%);
-        @media screen and (min-width: $break-large) {
-            width: 74%;
-            margin-left: 5%;
-            position: absolute;
-            bottom: 1%;
-            left: 20%;
-        }
+        // @media screen and (min-width: $break-large) {
+        //     width: 74%;
+        //     margin-left: 5%;
+        //     position: absolute;
+        //     bottom: 1%;
+        //     left: 20%;
+        // }
         .created-add-cal{
           display: inline-block;
           width: 33%;
@@ -132,21 +132,21 @@
           border-right: solid thin darken($border, 20%);
           height: 100%;
           font-size: 2.5em;
-          @media screen and (min-width: $break-large) {
-              font-size: 1.25em;
-              cursor: pointer;
-              &:hover{
-                color: darken($border, 60%);
-              }
-          }
+          // @media screen and (min-width: $break-large) {
+          //     font-size: 1.25em;
+          //     cursor: pointer;
+          //     &:hover{
+          //       color: darken($border, 60%);
+          //     }
+          // }
           .fa-calendar-plus-o{
             margin: 5% 0 4% 0;
             display: block;
             font-size: 2.5em;
-            @media screen and (min-width: $break-large) {
-                font-size: 1.25em;
-                margin: 4% 0 2% 0;
-            }
+            // @media screen and (min-width: $break-large) {
+            //     font-size: 1.25em;
+            //     margin: 4% 0 2% 0;
+            // }
           }
         }
         .created-post-chat{
@@ -156,21 +156,21 @@
           border-right: solid thin darken($border, 20%);
           height: 100%;
           font-size: 2.5em;
-          @media screen and (min-width: $break-large) {
-            font-size: 1.25em;
-            cursor: pointer;
-            &:hover{
-              color: darken($border, 60%);
-            }
-          }
+          // @media screen and (min-width: $break-large) {
+          //   font-size: 1.25em;
+          //   cursor: pointer;
+          //   &:hover{
+          //     color: darken($border, 60%);
+          //   }
+          // }
           .fa-comment{
             margin: 5% 0 4% 0;
             display: block;
             font-size: 2.5em;
-            @media screen and (min-width: $break-large) {
-              font-size: 1.25em;
-              margin: 4% 0 2% 0;
-            }
+            // @media screen and (min-width: $break-large) {
+            //   font-size: 1.25em;
+            //   margin: 4% 0 2% 0;
+            // }
           }
         }
         .created-post-directions-btn{
@@ -181,21 +181,21 @@
           height: 100%;
           text-decoration: none;
           font-size: 2.5em;
-          @media screen and (min-width: $break-large) {
-            font-size: 1.25em;
-            cursor: pointer;
-            &:hover{
-              color: darken($border, 60%);
-            }
-          }
+          // @media screen and (min-width: $break-large) {
+          //   font-size: 1.25em;
+          //   cursor: pointer;
+          //   &:hover{
+          //     color: darken($border, 60%);
+          //   }
+          // }
           .fa-google{
             margin: 5% 0 4% 0;
             display: block;
             font-size: 2.5em;
-            @media screen and (min-width: $break-large) {
-              font-size: 1.25em;
-              margin: 4% 0 2% 0;
-            }
+            // @media screen and (min-width: $break-large) {
+            //   font-size: 1.25em;
+            //   margin: 4% 0 2% 0;
+            // }
           }
         }
       }
@@ -203,21 +203,21 @@
       width: 96%;
       margin: 2% 0 0 2%;
       display: block;
-      @media screen and (min-width: $break-large) {
-        width: 70%;
-        margin: 3% 0 15% 25%;
-        font-size: 1em;
-        position: absolute;
-        bottom: 1%;
-      }
+      // @media screen and (min-width: $break-large) {
+      //   width: 70%;
+      //   margin: 3% 0 15% 25%;
+      //   font-size: 1em;
+      //   position: absolute;
+      //   bottom: 1%;
+      // }
     .created-post-start {
       font-size: 4em;
       display: inline-block;
       width: 48%;
-      @media screen and (min-width: $break-large) {
-        font-size: 1.5em;
-        width: 35%;
-      }
+      // @media screen and (min-width: $break-large) {
+      //   font-size: 1.5em;
+      //   width: 35%;
+      // }
       span{
         font-size: .75em;
         display: block;
@@ -228,10 +228,10 @@
       font-size: 4em;
       display: inline-block;
       width: 48%;
-      @media screen and (min-width: $break-large) {
-          font-size: 1.5em;
-          width: 35%;
-      }
+      // @media screen and (min-width: $break-large) {
+      //     font-size: 1.5em;
+      //     width: 35%;
+      // }
       span{
         font-size: .75em;
         display: block;
@@ -246,12 +246,12 @@
     width: 100%;
     text-align: center;
     margin: 2% 0 0 0;
-    @media screen and (min-width: $break-large) {
-      position: absolute;
-      bottom: 26%;
-      width: 70%;
-      margin: 0 0 0 25%;
-    }
+    // @media screen and (min-width: $break-large) {
+    //   position: absolute;
+    //   bottom: 26%;
+    //   width: 70%;
+    //   margin: 0 0 0 25%;
+    // }
 
   }
     .created-post-complete-button{
@@ -262,18 +262,18 @@
       font-size: 4em;
       color: lighten(black, 35%);
       background-color: lighten($border,3%);
-      @media screen and (min-width: $break-large) {
-        position: absolute;
-        bottom: 18%;
-        width: 73.5%;
-        margin: 0 0 0 25%;
-        font-size: 2.5em;
-        cursor: pointer;
-        &:hover{
-          color: lighten(black, 25%);
-          background-color: darken($border, 1%);
-        }
-      }
+      // @media screen and (min-width: $break-large) {
+      //   position: absolute;
+      //   bottom: 18%;
+      //   width: 73.5%;
+      //   margin: 0 0 0 25%;
+      //   font-size: 2.5em;
+      //   cursor: pointer;
+      //   &:hover{
+      //     color: lighten(black, 25%);
+      //     background-color: darken($border, 1%);
+      //   }
+      // }
     }
 
   }
@@ -290,9 +290,9 @@
       margin: 50% 0 0 20%;
       background-color: white;
       text-align: center;
-      @media screen and (min-width: $break-large) {
-        margin: 10% 0 0 20%;
-      }
+      // @media screen and (min-width: $break-large) {
+      //   margin: 10% 0 0 20%;
+      // }
       h1{
         margin-top: 5%;
         font-size: 4em;
@@ -301,9 +301,9 @@
         font-size: 6em;
         margin: 10% 0 5% 0;
         color: black;
-        @media screen and (min-width: $break-large) {
-          margin: 5% 0 5% 0;
-        }
+        // @media screen and (min-width: $break-large) {
+        //   margin: 5% 0 5% 0;
+        // }
       }
       .created-post-review-input{
         margin: 5% 20% 15% 20%;
@@ -353,11 +353,11 @@
     &:hover{
       background-color: darken($buttonaccent2, 5%);
     }
-    @media screen and (min-width: $break-large) {
-      font-size: 2em;
-      font-weight: 600;
-      line-height: 1.75em;
-    }
+    // @media screen and (min-width: $break-large) {
+    //   font-size: 2em;
+    //   font-weight: 600;
+    //   line-height: 1.75em;
+    // }
   }
   .created-post-footer-edit {
     background-color: $buttonbg;
@@ -375,11 +375,11 @@
     &:hover{
       background-color: darken($buttonbg, 5%);
     }
-    @media screen and (min-width: $break-large) {
-      font-size: 2em;
-      font-weight: 600;
-      line-height: 1.75em;
-    }
+    // @media screen and (min-width: $break-large) {
+    //   font-size: 2em;
+    //   font-weight: 600;
+    //   line-height: 1.75em;
+    // }
   }
   .created-post-footer-delete {
     background-color: $buttonaccent2;
@@ -397,9 +397,9 @@
     &:hover{
       background-color: darken($buttonaccent2, 5%);
     }
-    @media screen and (min-width: $break-large) {
-      font-size: 2em;
-      font-weight: 600;
-      line-height: 1.75em;
-    }
+    // @media screen and (min-width: $break-large) {
+    //   font-size: 2em;
+    //   font-weight: 600;
+    //   line-height: 1.75em;
+    // }
   }
