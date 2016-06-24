@@ -46,7 +46,7 @@ body {
     position: fixed;
     top: 7%;
     text-align: center;
-    font-size: 5em;
+    font-size: 1.5em;
     z-index: 999; }
   body .edit-profile-top-btn-wrap {
     position: fixed;
@@ -55,7 +55,7 @@ body {
     border: solid thin #F4F4F4;
     display: block;
     height: 3%;
-    font-size: 2.5em;
+    font-size: .75em;
     background-color: #fefefe;
     z-index: 999; }
     body .edit-profile-top-btn-wrap .edit-profile-change-email {
@@ -91,13 +91,15 @@ body {
     height: 73vh;
     color: #595959; }
     body .edit-profile-content-wrapper .edit-profile-image {
-      margin: 2% 0 2% 35%; }
+      margin: 2% 0 2% 25%;
+      height: 200px;
+      width: 200px; }
     body .edit-profile-content-wrapper .edit-profile-rating {
       width: 100%;
       text-align: center;
-      font-size: 2em; }
+      font-size: 1em; }
       body .edit-profile-content-wrapper .edit-profile-rating .actual-stars {
-        font-size: 1.5em;
+        font-size: 1em;
         color: #595959; }
     body .edit-profile-content-wrapper .edit-profile-add-image {
       border: solid 3px #F4F4F4;
@@ -106,35 +108,35 @@ body {
       color: white;
       color: #595959;
       text-align: center;
-      font-size: 3em;
-      line-height: 1.5em;
+      font-size: 1em;
+      line-height: 1.2em;
       margin: 2% 0 0 2.5%; }
     body .edit-profile-content-wrapper .edit-profile-first-name {
       margin: 2% 0 2% 2%;
       width: 40vw;
-      font-size: 4em;
+      font-size: 1em;
       border: solid thin #e7e7e7; }
     body .edit-profile-content-wrapper .edit-profile-last-name {
       margin: 2% 0 0 2%;
       width: 40vw;
-      font-size: 4em;
+      font-size: 1em;
       border: solid thin #e7e7e7; }
     body .edit-profile-content-wrapper .edit-profile-organization {
       margin: 2%;
       width: 96vw;
-      font-size: 4em;
+      font-size: 1em;
       border: solid thin #e7e7e7; }
     body .edit-profile-content-wrapper .edit-profile-location {
       margin: 2%;
       width: 96vw;
-      font-size: 4em;
+      font-size: 1em;
       border: solid thin #e7e7e7; }
     body .edit-profile-content-wrapper .edit-profile-description {
       display: block;
       margin: 2%;
       width: 96vw;
       height: 18vh;
-      font-size: 4em;
+      font-size: 1em;
       border: solid thin #e7e7e7; }
   body #file-input-edit-profile {
     display: none; }
@@ -147,7 +149,7 @@ body {
     z-index: 999;
     position: fixed;
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     color: white;
     cursor: pointer;
@@ -156,46 +158,34 @@ body {
       background-color: #59f68f; }
   body .edit-profile-upload-verify .fa-check-square-o {
     color: #71F79F;
-    font-size: 5em;
+    font-size: 1.2em;
     margin-left: 30%;
     display: inline; }
   body .edit-profile-upload-verify div {
     display: inline;
-    font-size: 3em; }
+    font-size: 1em; }
   body .sign-up-title {
     margin-top: 10%;
     padding: 2% 0;
-    font-size: 5em;
+    font-size: 1.2em;
     text-align: center;
     color: white; }
-    @media screen and (min-width: 1024px) {
-      body .sign-up-title {
-        margin-top: 8%;
-        font-size: 2.5em;
-        font-weight: 600; } }
   body .sign-up-label {
     display: block;
     margin-top: 5%;
     text-align: left;
-    font-size: 2em;
+    font-size: 1em;
     margin: 5% 0 0 10%; }
   body .sign-up-input {
     width: 80%;
     margin: 1% 10% 5% 10%;
-    font-size: 4em;
+    font-size: 1em;
     line-height: 1em;
     padding: 3%;
     box-sizing: border-box;
     border: solid 5px white;
     background: transparent;
     color: white; }
-    @media screen and (min-width: 1024px) {
-      body .sign-up-input {
-        font-size: 1.5em;
-        width: 35%;
-        margin: 1% 10% 0 33%;
-        padding: 1%;
-        border: solid 3px black; } }
   body .sign-up-submit-btn {
     margin: 2% 0 2% 10%;
     background-color: #71F79F;
@@ -204,36 +194,20 @@ body {
     cursor: pointer;
     width: 80%;
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em; }
-    @media screen and (min-width: 1024px) {
-      body .sign-up-submit-btn {
-        display: block;
-        margin: 3% 0 0 33.25%;
-        width: 34%;
-        text-align: center;
-        border-radius: 10px;
-        font-size: 2em;
-        line-height: 1.5em;
-        border: 3px solid #59f68f; } }
     body .sign-up-submit-btn:hover {
       background-color: #59f68f; }
   body .sign-up-back-btn {
     position: absolute;
     bottom: 0;
     width: 100%;
-    font-size: 4em;
-    line-height: 1.5em;
+    font-size: 2em;
+    line-height: 2em;
     color: white;
     background-color: #3DD6D0;
     text-align: center;
     cursor: pointer; }
-    @media screen and (min-width: 1024px) {
-      body .sign-up-back-btn {
-        position: fixed;
-        font-size: 2em;
-        font-weight: 600;
-        line-height: 1.75em; } }
     body .sign-up-back-btn:hover {
       background-color: #2ccec8; }
   body .home-loading-icon {
@@ -249,7 +223,7 @@ body {
     width: 100%;
     height: 3.5%;
     color: #00c46f;
-    font-size: 3em;
+    font-size: 1em;
     position: fixed;
     top: 7%;
     z-index: 999; }
@@ -295,7 +269,7 @@ body {
       body .home-content-wrapper .home-card .home-header {
         height: 4vh;
         background-color: #f9f9f9;
-        font-size: 3em;
+        font-size: 1em;
         font-weight: 700; }
         body .home-content-wrapper .home-card .home-header .home-post-title {
           padding: 0 0 0 1%;
@@ -313,12 +287,12 @@ body {
       body .home-content-wrapper .home-card .home-transaction-details {
         display: inline-block;
         width: 60%;
-        font-size: 2.5em;
+        font-size: 1em;
         padding: 0 0 0 1%; }
         body .home-content-wrapper .home-card .home-transaction-details .home-claimsupply {
           color: #cecece;
           font-size: .75em;
-          line-height: 1.5em; }
+          line-height: 1em; }
       body .home-content-wrapper .home-card .home-chat {
         display: inline-block;
         width: 20%;
@@ -330,7 +304,7 @@ body {
         body .home-content-wrapper .home-card .home-chat .fa-comment {
           margin: 15% 0 0 0;
           color: #b1bbc5;
-          font-size: 6em;
+          font-size: 2.5em;
           display: block; }
         body .home-content-wrapper .home-card .home-chat .home-chat-text {
           font-size: .5em;
@@ -349,7 +323,7 @@ body {
         body .home-content-wrapper .home-card .home-details .fa-info-circle {
           margin: 15% 0 0 0;
           color: #b1bbc5;
-          font-size: 6em;
+          font-size: 2.5em;
           display: block; }
           body .home-content-wrapper .home-card .home-details .fa-info-circle .home-details-text {
             font-size: .5em;
@@ -362,7 +336,7 @@ body {
     width: 50%;
     background-color: #71F79F;
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     color: white;
     cursor: pointer;
@@ -378,7 +352,7 @@ body {
     width: 50%;
     background-color: #3DD6D0;
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     color: white;
     cursor: pointer;
@@ -387,7 +361,7 @@ body {
     body .home-post:hover {
       background-color: #2ccec8; }
   body .post-detail-title {
-    font-size: 4em;
+    font-size: 1.75em;
     font-weight: 700;
     margin: 5% 0;
     width: 100%;
@@ -410,7 +384,7 @@ body {
       margin: 2% 0;
       width: 100%;
       display: block;
-      font-size: 5em; }
+      font-size: 1em; }
       body .post-detail-content-wrapper .post-detail-supplier-wrap .post-detail-supplier-name {
         width: 47%;
         display: inline-block;
@@ -429,7 +403,7 @@ body {
     body .post-detail-content-wrapper .post-detail-details {
       width: 96%;
       display: block;
-      font-size: 4em;
+      font-size: 1em;
       margin: 2% 0 2% 2%; }
       body .post-detail-content-wrapper .post-detail-details span {
         display: block;
@@ -439,19 +413,19 @@ body {
       display: block;
       width: 100%; }
       body .post-detail-content-wrapper .post-detail-images .post-detail-img {
-        height: 450px;
-        width: 450px;
+        height: 170px;
+        width: 170px;
         display: inline-block;
         margin: 0 2%; }
       body .post-detail-content-wrapper .post-detail-images #post-detail-map {
-        height: 450px;
-        width: 450px;
+        height: 170px;
+        width: 170px;
         display: inline-block; }
     body .post-detail-content-wrapper .post-detail-location {
       display: block;
       width: 96%;
       margin: 2% 0 2% 2%;
-      font-size: 4em;
+      font-size: 1.5em;
       font-weight: normal; }
       body .post-detail-content-wrapper .post-detail-location span {
         display: block;
@@ -464,14 +438,14 @@ body {
       text-align: center;
       width: 95%;
       margin: 2.5%  0 0 2.5%;
-      font-size: 4em;
-      line-height: 1.5em;
+      font-size: 1.75em;
+      line-height: 1.2em;
       color: #595959;
       background-color: #fcfcfc; }
     body .post-detail-content-wrapper .post-detail-time-wrap {
       width: 96%;
       margin: 2% 0 2% 2%;
-      font-size: 4em;
+      font-size: 1.5em;
       font-weight: normal; }
       body .post-detail-content-wrapper .post-detail-time-wrap .post-detail-start {
         display: inline-block;
@@ -490,7 +464,7 @@ body {
   body .post-detail-claim-button {
     background-color: #3DD6D0;
     color: white;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     font-weight: 300;
     text-align: center;
@@ -504,7 +478,7 @@ body {
       background-color: #2ccec8; }
   body .post-detail-rating {
     text-align: center;
-    font-size: 4em;
+    font-size: 1em;
     color: gray; }
     body .post-detail-rating span {
       display: block;
@@ -513,7 +487,7 @@ body {
   body .post-detail-bottom-button {
     background-color: #71F79F;
     color: white;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     font-weight: 300;
     text-align: center;
@@ -534,12 +508,12 @@ body {
     body #search-results-subheader #search-results-search {
       margin: 2% 0 0 2%;
       width: 95%;
-      font-size: 2em; }
+      font-size: 1em; }
     body #search-results-subheader #search-results-subheader-text {
-      font-size: 2em;
+      font-size: 1em;
       margin: 2% 0 0 2%;
       padding: 0 0 2% 0;
-      line-height: 2em; }
+      line-height: 1.3em; }
       body #search-results-subheader #search-results-subheader-text #search-results-distance-input {
         width: 7%;
         font-size: 1em;
@@ -559,12 +533,11 @@ body {
     margin: 29.5% 0 0 0;
     position: absolute;
     width: 100%;
-    border: solid thin black;
     height: 78vh;
     overflow: scroll; }
     body .search-results-content-wrapper .search-results-loading-icon {
       margin-top: 15%;
-      font-size: 4em; }
+      font-size: 2em; }
       body .search-results-content-wrapper .search-results-loading-icon i {
         margin-left: 32%; }
       body .search-results-content-wrapper .search-results-loading-icon span {
@@ -580,7 +553,7 @@ body {
       body .search-results-content-wrapper .results-card .results-header {
         height: 4vh;
         background-color: #f9f9f9;
-        font-size: 3em;
+        font-size: 1em;
         font-weight: 700;
         width: 100%; }
         body .search-results-content-wrapper .results-card .results-header .results-card-title {
@@ -601,18 +574,18 @@ body {
         margin: 2% 0 0 0; }
         body .search-results-content-wrapper .results-card .results-pic-wrap .results-add-picture {
           width: 95%;
-          height: 200px; }
+          height: 80px; }
       body .search-results-content-wrapper .results-card .results-transaction-details {
         margin: 0 0 0 20%;
         display: inline-block;
         width: 55%;
         height: 16vh;
-        font-size: 2em;
+        font-size: 1em;
         display: inline-block;
         overflow: hidden;
         text-overflow: ellipsis; }
         body .search-results-content-wrapper .results-card .results-transaction-details .results-supplier-name-text {
-          line-height: 1.5em;
+          line-height: 1.2em;
           font-weight: 700; }
         body .search-results-content-wrapper .results-card .results-transaction-details .results-transaction-location {
           line-height: 1.2em;
@@ -629,7 +602,7 @@ body {
         body .search-results-content-wrapper .results-card .results-details:hover {
           background-color: #fcfcfc; }
         body .search-results-content-wrapper .results-card .results-details .fa-info-circle {
-          font-size: 6em;
+          font-size: 2.5em;
           margin: 20% 0 0 0;
           color: #b1bbc5; }
           body .search-results-content-wrapper .results-card .results-details .fa-info-circle .search-details-text {
@@ -642,7 +615,7 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     color: white;
     cursor: pointer;
@@ -829,7 +802,7 @@ body {
       line-height: 1.75em; } }
   body .create-subheader {
     width: 100%;
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
     background-color: #abffda;
     line-height: 1.5em;
@@ -847,7 +820,7 @@ body {
       text-align: center;
       width: 95%;
       margin: 4%  0 2%  2.5%;
-      font-size: 4em;
+      font-size: 1.5em;
       color: #595959;
       background-color: #fcfcfc;
       line-height: 1.2em; }
@@ -858,26 +831,26 @@ body {
         font-size: 2em; }
     body .create-content-wrapper .create-upload-verify .fa-check-square-o {
       color: #71F79F;
-      font-size: 5em;
+      font-size: 1.2em;
       margin-left: 30%;
       display: inline; }
     body .create-content-wrapper .create-upload-verify div {
       display: inline;
-      font-size: 3em; }
+      font-size: 1em; }
     body .create-content-wrapper #file-input {
       display: none; }
     body .create-content-wrapper .create-title {
       background-color: white;
       width: 95%;
       border: solid 2px #F4F4F4;
-      font-size: 4em;
+      font-size: 1em;
       margin: 2% 0 0 2.5%;
       color: black; }
     body .create-content-wrapper .create-location {
       background-color: white;
       width: 95%;
       border: solid 2px #F4F4F4;
-      font-size: 4em;
+      font-size: 1em;
       margin: 2% 0 2% 2.5%;
       color: black; }
     body .create-content-wrapper .create-start-na {
@@ -885,7 +858,7 @@ body {
       background-color: white;
       width: 40%;
       border: solid 2px #F4F4F4;
-      font-size: 4em;
+      font-size: 1em;
       margin: 2% 2% 2% 2%;
       color: black; }
     body .create-content-wrapper .create-start-time-na {
@@ -893,7 +866,7 @@ body {
       background-color: white;
       width: 40%;
       border: solid 2px #F4F4F4;
-      font-size: 4em;
+      font-size: 1em;
       margin-top: 2%;
       color: black; }
     body .create-content-wrapper .create-end-na {
@@ -902,14 +875,14 @@ body {
       background-color: white;
       width: 40%;
       border: solid 2px #F4F4F4;
-      font-size: 4em;
+      font-size: 1em;
       color: black; }
     body .create-content-wrapper .create-end-time-na {
       display: inline-block;
       background-color: white;
       width: 40%;
       border: solid 2px #F4F4F4;
-      font-size: 4em;
+      font-size: 1em;
       margin-top: 2%;
       color: black; }
     body .create-content-wrapper .create-description {
@@ -918,7 +891,7 @@ body {
       background-color: white;
       width: 95%;
       border: solid 2px #F4F4F4;
-      font-size: 4em;
+      font-size: 1em;
       margin: 2% 0 0 2.5%;
       color: black;
       z-index: 1; }
@@ -928,7 +901,7 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     color: white;
     cursor: pointer;
@@ -942,7 +915,7 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     color: white;
     cursor: pointer;
@@ -952,7 +925,7 @@ body {
       background-color: #59f68f; }
   body .edit-post-subheader {
     width: 100%;
-    font-size: 4em;
+    font-size: 1.5em;
     text-align: center;
     background-color: #abffda;
     line-height: 1.5em;
@@ -969,8 +942,8 @@ body {
     height: 81vh;
     position: absolute; }
     body .edit-post-content-wrapper .edit-post-image {
-      height: 450px;
-      width: 450px;
+      height: 200px;
+      width: 200px;
       margin: 2% 0 0 28%; }
   body #file-input-edit-post {
     display: none; }
@@ -979,7 +952,7 @@ body {
     text-align: center;
     width: 95%;
     margin: 1%  0 2%  2.5%;
-    font-size: 4em;
+    font-size: 1em;
     color: #595959;
     background-color: #fcfcfc;
     line-height: 1.2em; }
@@ -987,7 +960,7 @@ body {
     background-color: white;
     width: 95%;
     border: solid 2px #F4F4F4;
-    font-size: 4em;
+    font-size: 1em;
     margin: 2% 0 0 2.5%;
     color: black; }
   body .edit-post-location {
@@ -996,14 +969,13 @@ body {
     border: solid 2px #F4F4F4;
     font-size: 1em;
     margin: 2% 0 2% 2.5%;
-    color: black;
-    font-size: 4em; }
+    color: black; }
   body .edit-post-start-na {
     display: inline-block;
     background-color: white;
     width: 40%;
     border: solid 2px #F4F4F4;
-    font-size: 4em;
+    font-size: 1em;
     margin: 1%;
     color: black; }
   body .edit-post-start-time-na {
@@ -1011,7 +983,7 @@ body {
     background-color: white;
     width: 40%;
     border: solid 2px #F4F4F4;
-    font-size: 4em;
+    font-size: 1em;
     margin-top: 2%;
     color: black; }
   body .edit-post-end-na {
@@ -1020,7 +992,7 @@ body {
     background-color: white;
     width: 40%;
     border: solid 2px #F4F4F4;
-    font-size: 4em;
+    font-size: 1em;
     margin-top: 2%;
     color: black; }
   body .edit-post-end-time-na {
@@ -1028,7 +1000,7 @@ body {
     background-color: white;
     width: 40%;
     border: solid 2px #F4F4F4;
-    font-size: 4em;
+    font-size: 1em;
     margin-top: 2%;
     color: black; }
   body .edit-post-description {
@@ -1039,14 +1011,14 @@ body {
     border: solid 2px #F4F4F4;
     margin: 2% 0 0 2.5%;
     color: black;
-    font-size: 4em; }
+    font-size: 1em; }
   body .edit-post-btn {
     background-color: #71F79F;
     position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     color: white;
     cursor: pointer;
@@ -1056,7 +1028,7 @@ body {
       background-color: #59f68f; }
   body .created-post-title {
     width: 100%;
-    font-size: 5em;
+    font-size: 1.5em;
     line-height: 1.5em;
     color: black;
     text-align: center;
@@ -1075,7 +1047,7 @@ body {
     height: 80vh; }
     body .created-content-wrapper .created-post-description {
       width: 60%;
-      font-size: 4em;
+      font-size: 1.4em;
       margin: 2% 0 0 2.5%;
       color: black;
       display: block; }
@@ -1088,19 +1060,19 @@ body {
       margin: 2% 0; }
       body .created-content-wrapper .created-post-images .created-post-photo {
         display: inline-block;
-        height: 450px;
-        width: 450px;
+        height: 170px;
+        width: 170px;
         margin: 0 1% 0 2%; }
       body .created-content-wrapper .created-post-images #created-post-gmap {
-        width: 450px;
-        height: 450px;
+        width: 170px;
+        height: 170px;
         display: inline-block;
         margin: 0 1%; }
     body .created-content-wrapper .created-post-address {
       display: block;
       width: 96%;
       margin: 2% 0 0 2%;
-      font-size: 4em; }
+      font-size: 1.2em; }
       body .created-content-wrapper .created-post-address span {
         font-weight: 700;
         font-size: .75em;
@@ -1113,22 +1085,22 @@ body {
       color: #a8a8a8; }
       body .created-content-wrapper .created-buttons-wrap .created-add-cal {
         display: inline-block;
-        width: 33%;
+        width: 32%;
         text-align: center;
         border-right: solid thin #c1c1c1;
         height: 100%;
-        font-size: 2.5em; }
+        font-size: 1em; }
         body .created-content-wrapper .created-buttons-wrap .created-add-cal .fa-calendar-plus-o {
           margin: 5% 0 4% 0;
           display: block;
           font-size: 2.5em; }
       body .created-content-wrapper .created-buttons-wrap .created-post-chat {
         display: inline-block;
-        width: 33%;
+        width: 32%;
         text-align: center;
         border-right: solid thin #c1c1c1;
         height: 100%;
-        font-size: 2.5em; }
+        font-size: 1em; }
         body .created-content-wrapper .created-buttons-wrap .created-post-chat .fa-comment {
           margin: 5% 0 4% 0;
           display: block;
@@ -1136,11 +1108,11 @@ body {
       body .created-content-wrapper .created-buttons-wrap .created-post-directions-btn {
         color: #a8a8a8;
         display: inline-block;
-        width: 33%;
+        width: 32%;
         text-align: center;
         height: 100%;
         text-decoration: none;
-        font-size: 2.5em; }
+        font-size: 1em; }
         body .created-content-wrapper .created-buttons-wrap .created-post-directions-btn .fa-google {
           margin: 5% 0 4% 0;
           display: block;
@@ -1150,7 +1122,7 @@ body {
       margin: 2% 0 0 2%;
       display: block; }
       body .created-content-wrapper .created-post-time-wrap .created-post-start {
-        font-size: 4em;
+        font-size: 1.2em;
         display: inline-block;
         width: 48%; }
         body .created-content-wrapper .created-post-time-wrap .created-post-start span {
@@ -1158,7 +1130,7 @@ body {
           display: block;
           font-weight: bold; }
       body .created-content-wrapper .created-post-time-wrap .created-post-end {
-        font-size: 4em;
+        font-size: 1.2em;
         display: inline-block;
         width: 48%; }
         body .created-content-wrapper .created-post-time-wrap .created-post-end span {
@@ -1167,7 +1139,7 @@ body {
           font-weight: bold; }
     body .created-content-wrapper .created-post-claimed-info {
       display: block;
-      font-size: 2em;
+      font-size: 1em;
       font-weight: bold;
       width: 100%;
       text-align: center;
@@ -1177,7 +1149,7 @@ body {
       text-align: center;
       width: 95%;
       margin: 1%  0 0 2.5%;
-      font-size: 4em;
+      font-size: 1.3em;
       color: #595959;
       background-color: #fcfcfc; }
   body .created-post-modal {
@@ -1194,9 +1166,9 @@ body {
       text-align: center; }
       body .created-post-modal .created-post-modal-content h1 {
         margin-top: 5%;
-        font-size: 4em; }
+        font-size: 1em; }
       body .created-post-modal .created-post-modal-content .created-stars {
-        font-size: 6em;
+        font-size: 1.2em;
         margin: 10% 0 5% 0;
         color: black; }
       body .created-post-modal .created-post-modal-content .created-post-review-input {
@@ -1204,7 +1176,7 @@ body {
         width: 60%;
         border: solid thin #c1c1c1; }
       body .created-post-modal .created-post-modal-content .created-post-button-wrap {
-        font-size: 4em;
+        font-size: 1em;
         width: 100%;
         display: block;
         margin-top: 15%; }
@@ -1230,7 +1202,7 @@ body {
     bottom: 0;
     width: 33.33%;
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     color: white;
     cursor: pointer;
@@ -1245,7 +1217,7 @@ body {
     width: 33.33%;
     margin-left: 33.33%;
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     color: white;
     cursor: pointer;
@@ -1260,7 +1232,7 @@ body {
     width: 33.33%;
     margin-left: 66.33%;
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     color: white;
     cursor: pointer;
@@ -1270,7 +1242,7 @@ body {
       background-color: #59f68f; }
   body .chat-subheader {
     background-color: #78ffc4;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     position: fixed;
     top: 7%;
@@ -1290,7 +1262,7 @@ body {
     body .chat-content-wrapper .chat-other-user-response {
       width: 65%;
       display: block;
-      font-size: 3em;
+      font-size: 1em;
       line-height: 1.2em;
       background-color: white;
       border-radius: 0 .3em .3em .3em;
@@ -1301,7 +1273,7 @@ body {
       margin: 2% 0 2% 30%;
       width: 65%;
       display: block;
-      font-size: 3em;
+      font-size: 1em;
       line-height: 1.2em;
       background-color: white;
       padding: 2% 1%;
@@ -1316,15 +1288,15 @@ body {
     display: block; }
     body .chat-input-block .chat-input {
       width: 80%;
-      font-size: 3em;
-      line-height: 1.7em;
+      font-size: 1.3em;
+      line-height: 1.2em;
       margin: 0 0 0 2%;
       border: solid 2px #3DD6D0;
       border-right: solid 2px transparent;
       border-radius: 5px; }
     body .chat-input-block .fa-paper-plane-o {
       display: inline-block;
-      font-size: 3.5em;
+      font-size: 1.2em;
       padding: 2%;
       color: white;
       background-color: #3DD6D0;
@@ -1336,7 +1308,7 @@ body {
   body .chat-home-btn {
     display: block;
     background-color: #71F79F;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     text-align: center;
     color: white;
@@ -1351,7 +1323,7 @@ body {
   body .chat-back-to-post-btn {
     display: inline-block;
     background-color: #3DD6D0;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     text-align: center;
     color: white;
@@ -1365,7 +1337,7 @@ body {
       background-color: #2ccec8; }
 
 .claimed-title {
-  font-size: 5em;
+  font-size: 2em;
   margin: 12.5% 0 0 0;
   display: block;
   width: 100%;
@@ -1386,7 +1358,7 @@ body {
   width: 100%; }
   .claimed-content-wrapper .claimed-supplier-name-wrap {
     width: 100%;
-    font-size: 4em;
+    font-size: 1.2em;
     margin: 2% 0 0 0; }
     .claimed-content-wrapper .claimed-supplier-name-wrap .claimed-supplier-name {
       display: inline-block;
@@ -1408,13 +1380,13 @@ body {
     width: 100%;
     display: block; }
     .claimed-content-wrapper .claimed-images #claimed-map {
-      width: 450px;
-      height: 450px;
+      width: 170px;
+      height: 170px;
       margin: 2% 0 2% 2%;
       display: inline-block; }
     .claimed-content-wrapper .claimed-images .claimed-post-photo {
-      width: 450px;
-      height: 450px;
+      width: 170px;
+      height: 170px;
       margin: 2% 0 2% 2%;
       display: inline-block; }
   .claimed-content-wrapper .claimed-buttons-wrap {
@@ -1426,24 +1398,24 @@ body {
     margin: 3% 0 0 0; }
     .claimed-content-wrapper .claimed-buttons-wrap .claimed-calendar {
       display: inline-block;
-      width: 33%;
+      width: 32%;
       height: 100%;
       text-align: center;
       border-right: solid thin #c1c1c1;
       height: 100%;
-      font-size: 2.5em; }
+      font-size: 1em; }
       .claimed-content-wrapper .claimed-buttons-wrap .claimed-calendar .fa-calendar-plus-o {
         margin: 5% 0 4% 0;
         display: block;
         font-size: 2.5em; }
     .claimed-content-wrapper .claimed-buttons-wrap .claimed-chat {
       display: inline-block;
-      width: 33%;
+      width: 32%;
       height: 100%;
       text-align: center;
       border-right: solid thin #c1c1c1;
       height: 100%;
-      font-size: 2.5em; }
+      font-size: 1em; }
       .claimed-content-wrapper .claimed-buttons-wrap .claimed-chat .fa-comment {
         margin: 5% 0 4% 0;
         display: block;
@@ -1451,12 +1423,12 @@ body {
     .claimed-content-wrapper .claimed-buttons-wrap .claimed-directions {
       color: #a8a8a8;
       display: inline-block;
-      width: 33%;
+      width: 32%;
       height: 100%;
       text-align: center;
       height: 100%;
       text-decoration: none;
-      font-size: 2.5em; }
+      font-size: 1em; }
       .claimed-content-wrapper .claimed-buttons-wrap .claimed-directions .fa-google {
         margin: 5% 0 4% 0;
         display: block;
@@ -1464,7 +1436,7 @@ body {
   .claimed-content-wrapper .claimed-time-wrap {
     display: block;
     width: 96%;
-    font-size: 4em;
+    font-size: 1.2em;
     margin: 2% 0 0 2%; }
     .claimed-content-wrapper .claimed-time-wrap .claimed-start {
       width: 49%;
@@ -1482,7 +1454,7 @@ body {
         font-size: .75em; }
   .claimed-content-wrapper .claimed-location {
     width: 95%;
-    font-size: 4em;
+    font-size: 1.2em;
     margin: 2% 0 0 2%;
     display: block; }
     .claimed-content-wrapper .claimed-location span {
@@ -1490,7 +1462,7 @@ body {
       font-size: .75em;
       font-weight: 700; }
   .claimed-content-wrapper .claimed-details {
-    font-size: 4em;
+    font-size: 1.2em;
     margin: 2% 0 0 2%;
     display: block; }
     .claimed-content-wrapper .claimed-details span {
@@ -1504,7 +1476,7 @@ body {
   left: 0;
   width: 50%;
   text-align: center;
-  font-size: 4em;
+  font-size: 2em;
   line-height: 1.5em;
   font-weight: 300;
   color: white;
@@ -1520,7 +1492,7 @@ body {
   width: 50%;
   left: 50%;
   text-align: center;
-  font-size: 4em;
+  font-size: 2em;
   line-height: 1.5em;
   font-weight: 300;
   color: white;

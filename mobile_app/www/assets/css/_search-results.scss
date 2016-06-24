@@ -17,7 +17,7 @@
   #search-results-search{
     margin: 2% 0 0 2%;
     width: 95%;
-    font-size: 2em;
+    font-size: 1em;
     // @media screen and (min-width: $break-large) {
     //     font-size: .75em;
     //     line-height: 1em;
@@ -28,10 +28,10 @@
     // }
   }
   #search-results-subheader-text{
-    font-size: 2em;
+    font-size: 1em;
     margin: 2% 0 0 2%;
     padding: 0 0 2% 0;
-    line-height: 2em;
+    line-height: 1.3em;
     // @media screen and (min-width: $break-large) {
     //     font-size: .6em;
     //     padding: 0 0 .75% 0;
@@ -79,7 +79,7 @@
 margin: 29.5% 0 0 0;
 position: absolute;
 width: 100%;
-border: solid thin black;
+// border: solid thin black;
 height: 78vh;
 overflow: scroll;
 // @media screen and (min-width: $break-large) {
@@ -88,7 +88,7 @@ overflow: scroll;
 // }
 .search-results-loading-icon {
   margin-top: 15%;
-  font-size: 4em;
+  font-size: 2em;
   // @media screen and (min-width: $break-large) {
   //     margin-top: 10%;
   //     font-size: 2em;
@@ -119,7 +119,7 @@ overflow: scroll;
     height: $cardHeight / 5;
     background-color: lighten($border, 2%);
     // padding: 2%;
-    font-size: 3em;
+    font-size: 1em;
     font-weight: 700;
     width: 100%;
     // border: solid thin black;
@@ -163,7 +163,7 @@ overflow: scroll;
     // margin: -10% 0 0 1%;
     // display: inline-block;
     width: 95%;
-    height: 200px;
+    height: 80px;
     // @media screen and (min-width: $break-large) {
     //   height: 115px;
     // }
@@ -175,7 +175,7 @@ overflow: scroll;
     display: inline-block;
     width: 55%;
     height: $cardHeight * 0.8;
-    font-size: 2em;
+    font-size: 1em;
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -185,7 +185,7 @@ overflow: scroll;
     //
     // }
     .results-supplier-name-text{
-      line-height: 1.5em;
+      line-height: 1.2em;
       font-weight: 700;
     }
     .results-transaction-location{
@@ -214,7 +214,7 @@ overflow: scroll;
       background-color: lighten($border, 3%);
     }
     .fa-info-circle{
-      font-size: 6em;
+      font-size: 2.5em;
       margin: 20% 0 0 0;
         color: lighten(lightslategray, 20%);
       // @media screen and (min-width: $break-large) {
@@ -237,7 +237,7 @@ overflow: scroll;
   bottom: 0;
   width: 100%;
   text-align: center;
-  font-size: 4em;
+  font-size: 2em;
   line-height: 1.5em;
   color: white;
   cursor: pointer;

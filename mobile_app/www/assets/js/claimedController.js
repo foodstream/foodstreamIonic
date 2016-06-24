@@ -34,7 +34,7 @@ foodStream.controller('claimedController', ['$http', '$scope', '$location', func
     //set map latLng w/callback info
     myLatlng = new google.maps.LatLng($scope.post.latitude, $scope.post.longitude);
     var mapOptions = {
-      zoom: 16,
+      zoom: 13,
       center: myLatlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
@@ -42,7 +42,7 @@ foodStream.controller('claimedController', ['$http', '$scope', '$location', func
     var map = new google.maps.Map(document.getElementById("claimed-map"),
       mapOptions);
     //set marker
-    var image = { url: './assets/images/foodstream_logo_marker.png', scaledSize: new google.maps.Size(100, 100)};
+    var image = { url: './assets/images/foodstream_logo_marker.png', scaledSize: new google.maps.Size(40, 40)};
     var marker = new google.maps.Marker({
       position: myLatlng,
       title:"Food Is here",

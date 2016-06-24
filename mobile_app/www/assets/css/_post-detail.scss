@@ -1,5 +1,5 @@
 .post-detail-title {
-  font-size: 4em;
+  font-size: 1.75em;
   font-weight: 700;
   margin: 5% 0;
   width: 100%;
@@ -36,7 +36,7 @@
     margin: 2% 0;
     width: 100%;
     display: block;
-    font-size: 5em;
+    font-size: 1em;
     // border: solid thin black;
     // @media screen and (min-width: $break-large) {
     //     font-size: 2.5em;
@@ -80,7 +80,7 @@
   .post-detail-details{
     width: 96%;
     display: block;
-    font-size: 4em;
+    font-size: 1em;
     margin: 2% 0 2% 2%;
     // border: solid thin black;
     // @media screen and (min-width: $break-large) {
@@ -99,8 +99,8 @@
     display: block;
     width: 100%;
     .post-detail-img{
-      height: 450px;
-      width: 450px;
+      height: 170px;
+      width: 170px;
       display: inline-block;
       // margin: 2%;
       margin: 0 2%;
@@ -114,8 +114,8 @@
       // }
     }
     #post-detail-map{
-      height: 450px;
-      width: 450px;
+      height: 170px;
+      width: 170px;
       display: inline-block;
       // @media screen and (min-width: $break-large) {
       //     height: 300px;
@@ -130,7 +130,7 @@
     display: block;
     width: 96%;
     margin: 2% 0 2% 2%;
-    font-size: 4em;
+    font-size: 1.5em;
     font-weight: normal;
     // @media screen and (min-width: $break-large) {
     //   margin: 2% 0 5% 2%;
@@ -152,8 +152,8 @@
     text-align: center;
     width: 95%;
     margin: 2.5%  0 0 2.5%;
-    font-size: 4em;
-    line-height: 1.5em;
+    font-size: 1.75em;
+    line-height: 1.2em;
     color: lighten(black, 35%);
     background-color: lighten($border,3%);
     // @media screen and (min-width: $break-large) {
@@ -169,7 +169,7 @@
   .post-detail-time-wrap{
     width: 96%;
     margin: 2% 0 2% 2%;
-    font-size: 4em;
+    font-size: 1.5em;
     font-weight: normal;
     // @media screen and (min-width: $break-large) {
     //     margin: 2% 0 8% 2%;
@@ -206,7 +206,7 @@
 .post-detail-claim-button {
   background-color: $buttonbg;
   color: white;
-  font-size: 4em;
+  font-size: 2em;
   line-height: 1.5em;
   font-weight: 300;
   text-align: center;
@@ -228,7 +228,7 @@
 
 .post-detail-rating {
   text-align: center;
-  font-size: 4em;
+  font-size: 1em;
   color: gray;
   span {
     display: block;
@@ -241,7 +241,7 @@
 .post-detail-bottom-button {
   background-color: $buttonaccent2;
   color: white;
-  font-size: 4em;
+  font-size: 2em;
   line-height: 1.5em;
   font-weight: 300;
   text-align: center;

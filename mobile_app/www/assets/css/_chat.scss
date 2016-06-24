@@ -1,6 +1,6 @@
 .chat-subheader{
   background-color: lighten($headerbg, 25%);
-  font-size: 4em;
+  font-size: 2em;
   line-height: 1.5em;
   position: fixed;
   top: 7%;
@@ -38,7 +38,7 @@
   .chat-other-user-response{
     width: 65%;
     display: block;
-    font-size: 3em;
+    font-size: 1em;
     line-height: 1.2em;
     background-color: white;
     border-radius: 0 .3em .3em .3em;
@@ -55,7 +55,7 @@
     margin: 2% 0 2% 30%;
     width: 65%;
     display: block;
-    font-size: 3em;
+    font-size: 1em;
     line-height: 1.2em;
     background-color: white;
     padding: 2% 1%;
@@ -80,8 +80,8 @@
   // }
   .chat-input{
     width: 80%;
-    font-size: 3em;
-    line-height: 1.7em;
+    font-size: 1.3em;
+    line-height: 1.2em;
     margin: 0 0 0 2%;
     border: solid 2px $buttonbg;
     border-right: solid 2px transparent;
@@ -94,7 +94,7 @@
     }
     .fa-paper-plane-o{
       display: inline-block;
-      font-size: 3.5em;
+      font-size: 1.2em;
       // margin: 0 0 0 -1%;
       padding: 2%;
       color: white;
@@ -116,7 +116,7 @@
 .chat-home-btn{
   display:block;
   background-color: $buttonaccent2;
-  font-size: 4em;
+  font-size: 2em;
   line-height: 1.5em;
   text-align: center;
   color: white;
@@ -137,7 +137,7 @@
 .chat-back-to-post-btn{
   display:inline-block;
   background-color: $buttonbg;
-  font-size: 4em;
+  font-size: 2em;
   line-height: 1.5em;
   text-align: center;
   color: white;
